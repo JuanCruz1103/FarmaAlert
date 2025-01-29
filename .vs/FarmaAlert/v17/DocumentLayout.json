@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\source\\repos\\farmaalert\\farmaalert\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\source\\repos\\farmaalert\\farmaalert\\recoberpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\recoberpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\source\\repos\\farmaalert\\farmaalert\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\desktop\\farmaalert\\farmaalert\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\source\\repos\\farmaalert\\farmaalert\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\source\\repos\\farmaalert\\farmaalert\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\source\\repos\\farmaalert\\farmaalert\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|c:\\users\\usuario 1\\desktop\\farmaalert\\farmaalert\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6B9788-CA6E-4517-BA9F-BBB814AF3EDA}|FarmaAlert\\FarmaAlert.csproj|solutionrelative:farmaalert\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\HomePage.xaml",
-              "RelativeDocumentMoniker": "FarmaAlert\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\HomePage.xaml",
-              "RelativeToolTip": "FarmaAlert\\HomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:25:42.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "recoberPassword.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\recoberPassword.xaml",
-              "RelativeDocumentMoniker": "FarmaAlert\\recoberPassword.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\recoberPassword.xaml",
-              "RelativeToolTip": "FarmaAlert\\recoberPassword.xaml",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FarmaAlert\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\App.xaml.cs",
+              "RelativeToolTip": "FarmaAlert\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:25:14.99Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:48:41.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\Register.xaml",
+              "DocumentMoniker": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\Register.xaml",
               "RelativeDocumentMoniker": "FarmaAlert\\Register.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\Register.xaml",
+              "ToolTip": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\Register.xaml",
               "RelativeToolTip": "FarmaAlert\\Register.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:24:54.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "login.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\login.xaml",
-              "RelativeDocumentMoniker": "FarmaAlert\\login.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\login.xaml",
-              "RelativeToolTip": "FarmaAlert\\login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:24:31.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\MainPage.xaml",
-              "RelativeDocumentMoniker": "FarmaAlert\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\MainPage.xaml",
-              "RelativeToolTip": "FarmaAlert\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:22:49.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\AppShell.xaml",
-              "RelativeDocumentMoniker": "FarmaAlert\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\AppShell.xaml",
-              "RelativeToolTip": "FarmaAlert\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:22:44.782Z",
+              "WhenOpened": "2025-01-29T16:37:22.614Z",
               "EditorCaption": ""
             }
           ]

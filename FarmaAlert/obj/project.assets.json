@@ -33167,11 +33167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\FarmaAlert.csproj",
+      "projectUniqueName": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\FarmaAlert.csproj",
       "projectName": "FarmaAlert",
-      "projectPath": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\FarmaAlert.csproj",
+      "projectPath": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\FarmaAlert.csproj",
       "packagesPath": "C:\\Users\\usuario 1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\obj\\",
+      "outputPath": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

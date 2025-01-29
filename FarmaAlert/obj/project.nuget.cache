@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7SWyomHCcgI=",
+  "dgSpecHash": "yaXAi8ZYMAU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario 1\\source\\repos\\FarmaAlert\\FarmaAlert\\FarmaAlert.csproj",
+  "projectFilePath": "C:\\Users\\usuario 1\\Desktop\\FarmaAlert\\FarmaAlert\\FarmaAlert.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario 1\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\usuario 1\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

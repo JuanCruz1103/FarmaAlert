@@ -4,9 +4,10 @@
              x:Class="FarmaAlert.Register"
              Title="Register">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label Text="Resgistar Usuario" TextColor="White" HorizontalTextAlignment="Center" 
+         VerticalTextAlignment="Center" Margin="15"/>
+        <Frame BackgroundColor="White" CornerRadius="10"/>
+        <Entry Placeholder="Nombre" PlaceholderColor="Gray" />
+
     </VerticalStackLayout>
 </ContentPage>
