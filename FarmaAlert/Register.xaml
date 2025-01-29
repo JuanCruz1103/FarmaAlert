@@ -2,12 +2,37 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Register"
+             BackgroundColor="#A1DAD7" 
              Title="Register">
     <VerticalStackLayout>
         <Label Text="Resgistar Usuario" TextColor="White" HorizontalTextAlignment="Center" 
          VerticalTextAlignment="Center" Margin="15"/>
-        <Frame BackgroundColor="White" CornerRadius="10"/>
-        <Entry Placeholder="Nombre" PlaceholderColor="Gray" />
+        <Entry BackgroundColor="White"  Margin="10"
+               Placeholder="Nombre" PlaceholderColor="Gray" 
+               Keyboard="Text" x:Name="EntryUserName" TextColor="Black"/>
 
+        <Entry BackgroundColor="White"  Margin="10"
+               Placeholder="Correo Electronico" PlaceholderColor="Gray" 
+               Keyboard="Email" x:Name="EntryEmail" TextColor="Black"/>
+
+        <Entry BackgroundColor="White"  Margin="10"
+               Placeholder="Contraseña" PlaceholderColor="Gray" 
+               Keyboard="Text" x:Name="EntryPassword" TextColor="Black"
+               IsPassword="True"/>
+
+        <Entry BackgroundColor="White"  Margin="10"
+               Placeholder="Confirmar Contraseña" PlaceholderColor="Gray" 
+               Keyboard="Text" x:Name="EntryConfirmPassword"  TextColor="Black"
+               IsPassword="True"/>
+
+        <Entry BackgroundColor="White"  Margin="10"
+         Placeholder="Numero telefonico" PlaceholderColor="Gray" 
+        Keyboard="Telephone" x:Name="EntryPhone" TextColor="Black"/>
+
+        <Button Text="Confirmar" BackgroundColor="Green" Clicked="Registerbtn_Clicked" TextColor="White"
+                Margin="10"/>
+
+        <Button Text="Cuenta Creada!" BackgroundColor="Black" Clicked="Loginbtn_Clicked" BorderColor="Black" 
+                TextColor="White" Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>
