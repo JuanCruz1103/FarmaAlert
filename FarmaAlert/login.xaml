@@ -2,11 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.login"
+             BackgroundColor="#A1DAD7"
              Title="login">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Image Source="https://aka.ms/campus.jpg" 
+       SemanticProperties.Description="MEDIC!!"
+       HeightRequest="200"
+       HorizontalOptions="Center"
+       BackgroundColor="Grey"/>
+        
+        <Label Text="MEDI-TEK" FontSize="32" VerticalOptions="Center" 
+               HorizontalOptions="Center" BackgroundColor="#A1DAD7" TextColor="Black"/>
+        
+        <Label Text="Introduce tu nombre" VerticalOptions="Center" HorizontalOptions="Center"
+                FontSize="15" BackgroundColor="#A1DAD7" TextColor="Black"/>
+        <Entry/>
+        <Label
+    Text="Introduce tu contraseña"
+    VerticalOptions="Center"
+    HorizontalOptions="Center"
+    FontSize="15"
+    TextColor="Black"/>
+        <Entry/>
+        <Button
+    x:Name="mainpage"
+    Text="LOGIN"
+    Clicked="mainpage_Clicked"
+    HorizontalOptions="Center"
+    BackgroundColor="Green"
+     TextColor="Black"/>
     </VerticalStackLayout>
 </ContentPage>

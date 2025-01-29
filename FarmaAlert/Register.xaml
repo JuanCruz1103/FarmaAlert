@@ -32,7 +32,7 @@
         <Button Text="Confirmar" BackgroundColor="Green" Clicked="Registerbtn_Clicked" TextColor="White"
                 Margin="10"/>
 
-        <Button Text="Cuenta Creada!" BackgroundColor="Black" Clicked="Loginbtn_Clicked" BorderColor="Black" 
+        <Button Text="Cuenta Creada!" BackgroundColor="Black" Clicked="Registerbtn_Clicked" BorderColor="Black" 
                 TextColor="White" Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>
