@@ -2,12 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Register"
-             BackgroundColor="#A1DAD7" 
-             Title="Register">
+             BackgroundColor="White" 
+             Title="Registrarse">
     <VerticalStackLayout>
-        <Label Text="Resgistar Usuario" TextColor="White" HorizontalTextAlignment="Center" 
-         VerticalTextAlignment="Center" Margin="15"/>
-        <Entry BackgroundColor="White"  Margin="10"
+        <Entry  BackgroundColor="White"  Margin="15"
                Placeholder="Nombre" PlaceholderColor="Gray" 
                Keyboard="Text" x:Name="EntryUserName" TextColor="Black"/>
 
@@ -29,10 +27,10 @@
          Placeholder="Numero telefonico" PlaceholderColor="Gray" 
         Keyboard="Telephone" x:Name="EntryPhone" TextColor="Black"/>
 
-        <Button Text="Confirmar" BackgroundColor="Green" Clicked="Registerbtn_Clicked" TextColor="White"
-                Margin="10"/>
+        <Button Text="Confirmar" BackgroundColor="Salmon" Clicked="Registerbtn_Clicked" TextColor="White"
+                Margin="80" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>
 
-        <Button Text="Cuenta Creada!" BackgroundColor="Black" Clicked="Registerbtn_Clicked" BorderColor="Black" 
-                TextColor="White" Margin="10"/>
+        <Button Text="Ya tienes una cuenta?    Iniciar sesión" BackgroundColor="Transparent" Clicked="OnBackToLoginClicked" BorderColor="Black" 
+                TextColor="Black" Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>

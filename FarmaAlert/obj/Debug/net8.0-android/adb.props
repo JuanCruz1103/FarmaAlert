@@ -1,2 +1,2 @@
-AdbTarget=-s ZT322CTD8V
+AdbTarget=-s emulator-5554
 AdbOptions=

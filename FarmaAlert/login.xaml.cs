@@ -7,8 +7,30 @@ public partial class login : ContentPage
 		InitializeComponent();
 	}
 
-    private void mainpage_Clicked(object sender, EventArgs e)
+    private async void mainpage_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new MainPage());
+
+        bool isLoginSuccessful = true;
+
+        if (isLoginSuccessful)
+        {
+            // Navegar a HomePage (TabbedPage)
+            await Navigation.PushAsync(new HomePage());
+        }
+        else
+        {
+            await DisplayAlert("Error", "Contraseña Invalida", "OK");
+        }
+    }
+
+
+    private async void OnRegisterClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Register());
+    }
+
+    private async void OnForgotPasswordClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new recoberPassword());
     }
 }

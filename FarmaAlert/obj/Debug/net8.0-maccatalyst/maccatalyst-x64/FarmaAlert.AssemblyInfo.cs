@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FarmaAlert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fcba51b8071001a412c91c43eb1459663d974f81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4d69019ef389c993364818a88528982de26b82ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("FarmaAlert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FarmaAlert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst17.5")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

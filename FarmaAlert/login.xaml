@@ -2,34 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.login"
-             BackgroundColor="#A1DAD7"
-             Title="login">
+             BackgroundColor="White"
+             Title="Inicio de sesión" >
     <VerticalStackLayout>
-        <Image Source="https://aka.ms/campus.jpg" 
+        <Image Source="https://i.ibb.co/jPtmh0bJ/Pica-enhance-20250127211029.png"  
        SemanticProperties.Description="MEDIC!!"
-       HeightRequest="200"
+       HeightRequest="150"
        HorizontalOptions="Center"
-       BackgroundColor="Grey"/>
+       BackgroundColor="Grey" Margin="5"/>
         
-        <Label Text="MEDI-TEK" FontSize="32" VerticalOptions="Center" 
-               HorizontalOptions="Center" BackgroundColor="#A1DAD7" TextColor="Black"/>
+        <Label Text="Bienvenido" FontSize="32" VerticalOptions="Center" Margin="10" 
+               HorizontalOptions="Center" BackgroundColor="White" TextColor="Black"/>
         
-        <Label Text="Introduce tu nombre" VerticalOptions="Center" HorizontalOptions="Center"
-                FontSize="15" BackgroundColor="#A1DAD7" TextColor="Black"/>
-        <Entry/>
+        <Label Margin="15" Text="Introduce tu nombre" VerticalOptions="Center" HorizontalOptions="Center"
+                FontSize="15" BackgroundColor="White" TextColor="Black"/>
+        <Entry HorizontalTextAlignment="Center"/>
         <Label
     Text="Introduce tu contraseña"
     VerticalOptions="Center"
     HorizontalOptions="Center"
     FontSize="15"
-    TextColor="Black"/>
-        <Entry/>
+    TextColor="Black" Margin="5"/>
+        <Entry IsPassword="True" HorizontalTextAlignment="Center"/>
         <Button
     x:Name="mainpage"
-    Text="LOGIN"
+    Text="Iniciar sesión"
     Clicked="mainpage_Clicked"
     HorizontalOptions="Center"
-    BackgroundColor="Green"
-     TextColor="Black"/>
+    BackgroundColor="Green" 
+        <Label Text="ó" Margin="10" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title"></Label>
+        <Button Text="Registrate" Clicked="OnRegisterClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>
+        <Button Text="Recuperar contraseña?" Clicked="OnForgotPasswordClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>
     </VerticalStackLayout>
 </ContentPage>

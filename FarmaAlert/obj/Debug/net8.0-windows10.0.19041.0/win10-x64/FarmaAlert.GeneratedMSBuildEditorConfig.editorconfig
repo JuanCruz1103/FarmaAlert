@@ -8,59 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FarmaAlert
-build_property.ProjectDir = C:\Users\Lenovo\OneDrive\Escritorio\FarmaAlert\FarmaAlert\
+build_property.ProjectDir = C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/App.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/AppShell.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/HomePage.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/login.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.login.xaml
 build_metadata.AdditionalFiles.TargetPath = login.xaml
 build_metadata.AdditionalFiles.RelativePath = login.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/MainPage.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/recoberPassword.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/recoberPassword.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.recoberPassword.xaml
 build_metadata.AdditionalFiles.TargetPath = recoberPassword.xaml
 build_metadata.AdditionalFiles.RelativePath = recoberPassword.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Register.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Register.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = Register.xaml
 build_metadata.AdditionalFiles.RelativePath = Register.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Resources/Styles/Colors.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Resources/Styles/Styles.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

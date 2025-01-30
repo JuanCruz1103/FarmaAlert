@@ -7,15 +7,20 @@ public partial class Register : ContentPage
 		InitializeComponent();
 	}
 
-	private void Registerbtn_Clicked(object sender, EventArgs e)
-	{
-		
-
+    private async void OnRegisterbtn_Clicked(object sender, EventArgs e)
+    {
+        await DisplayAlert("Success", "Registration successful", "OK");
+        await Navigation.PopAsync();
 	}
 
     private async void OnBackToLoginClicked(object sender, EventArgs e)
     {
-        await Navigation.PopAsync();
+        await DisplayAlert("Success", "Registration successful", "OK");
+        await Navigation.PopAsync(); // Regresar a la página anterior (Login)
     }
 
+    private void Button_Unfocused(object sender, FocusEventArgs e)
+    {
+
+    }
 }
