@@ -1,17 +1,19 @@
-namespace FarmaAlert;
+using FarmaAlert;
+
+namespace FarmaAlert.Pages;
 
 public partial class Register : ContentPage
 {
-	public Register()
-	{
-		InitializeComponent();
-	}
+    public Register()
+    {
+        InitializeComponent();
+    }
 
-    private async void OnRegisterbtn_Clicked(object sender, EventArgs e)
+    private async void Registerbtn_Clicked(object sender, EventArgs e)
     {
         await DisplayAlert("Success", "Registration successful", "OK");
         await Navigation.PopAsync();
-	}
+    }
 
     private async void OnBackToLoginClicked(object sender, EventArgs e)
     {

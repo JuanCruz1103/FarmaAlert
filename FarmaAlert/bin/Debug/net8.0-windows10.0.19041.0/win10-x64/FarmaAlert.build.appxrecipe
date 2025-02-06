@@ -214,6 +214,18 @@
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\estadisticas.scale-100.png">
+      <PackagePath>estadisticas.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\paciente.scale-100.png">
+      <PackagePath>paciente.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pastilla.scale-100.png">
+      <PackagePath>pastilla.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.deps.json">
       <PackagePath>FarmaAlert.deps.json</PackagePath>
     </AppxPackagedFile>

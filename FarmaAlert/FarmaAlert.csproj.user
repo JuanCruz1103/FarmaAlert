@@ -11,16 +11,31 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="HomePage.xaml">
+    <MauiXaml Update="Pages\AgregarAlarma.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="login.xaml">
+    <MauiXaml Update="Pages\DetallePaciente.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="recoberPassword.xaml">
+    <MauiXaml Update="Pages\Estadisticas.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Register.xaml">
+    <MauiXaml Update="Pages\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\login.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Pacientes.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Pastillas.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\recoberPassword.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Register.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

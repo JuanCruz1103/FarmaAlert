@@ -1,12 +1,13 @@
-﻿namespace FarmaAlert
-{
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
+﻿using FarmaAlert.Pages;
 
-            MainPage = new NavigationPage(new login());
-        }
+namespace FarmaAlert;
+
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+
+        MainPage = new NavigationPage(new login());
     }
 }

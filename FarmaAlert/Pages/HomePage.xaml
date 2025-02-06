@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:FarmaAlert.Pages"
+            xmlns:local1="clr-namespace:FarmaAlert"
+            x:Class="FarmaAlert.Pages.HomePage"
+            Title="FarmaAlaert"
+            BarBackgroundColor="LightBlue"
+            BarTextColor="White"
+            
+            >
+
+    <local:Pastillas/>
+
+     <local:Estadisticas/>
+
+    <local:Pacientes/>
+</TabbedPage>

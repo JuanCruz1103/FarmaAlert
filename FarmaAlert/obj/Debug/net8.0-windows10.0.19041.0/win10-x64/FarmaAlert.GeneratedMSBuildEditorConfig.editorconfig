@@ -34,35 +34,65 @@ build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/HomePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.HomePage.xaml
-build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
-build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/login.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.login.xaml
-build_metadata.AdditionalFiles.TargetPath = login.xaml
-build_metadata.AdditionalFiles.RelativePath = login.xaml
-
 [C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/recoberPassword.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/AgregarAlarma.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.recoberPassword.xaml
-build_metadata.AdditionalFiles.TargetPath = recoberPassword.xaml
-build_metadata.AdditionalFiles.RelativePath = recoberPassword.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.AgregarAlarma.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AgregarAlarma.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AgregarAlarma.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Register.xaml]
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/DetallePaciente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Register.xaml
-build_metadata.AdditionalFiles.TargetPath = Register.xaml
-build_metadata.AdditionalFiles.RelativePath = Register.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.DetallePaciente.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DetallePaciente.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DetallePaciente.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/Estadisticas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Estadisticas.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Estadisticas.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Estadisticas.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.login.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\login.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\login.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/Pacientes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Pacientes.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Pacientes.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Pacientes.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/Pastillas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Pastillas.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Pastillas.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Pastillas.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/recoberPassword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.recoberPassword.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\recoberPassword.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\recoberPassword.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Pages/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Register.xaml
 
 [C:/Users/juanp/OneDrive/Escritorio/FarmaAlertMAUI/FarmaAlert/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

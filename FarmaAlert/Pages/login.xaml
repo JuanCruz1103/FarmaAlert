@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaAlert.Pages.login"
+             BackgroundColor="White"
+             Title="Inicio de sesión" >
+    <VerticalStackLayout>
+        <Image Source="logo.png"  
+       SemanticProperties.Description="MEDIC!!"
+       HeightRequest="150"
+       HorizontalOptions="Center"
+       BackgroundColor="Grey" Margin="5"/>
+        
+        <Label Text="Bienvenido" FontSize="32" VerticalOptions="End" Margin="10" 
+               HorizontalOptions="Center" BackgroundColor="White" TextColor="Black" FontAttributes="Bold"/>
+        
+        <Label Margin="15" Text="Introduce tu correo electronico" VerticalOptions="Center" HorizontalOptions="Start"
+                FontSize="15" BackgroundColor="White" TextColor="#F85F6A" TranslationX="30" TranslationY="10" FontAttributes="Bold"/>
+        <Entry HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" TranslationY="-10"/>
+        <Label
+    Text="Introduce tu contraseña"
+    VerticalOptions="Center"
+    HorizontalOptions="Center"
+    FontSize="15"
+    TextColor="#F85F6A"  Margin="5" TranslationX="-70" TranslationY="10"  FontAttributes="Bold"/>
+        <Entry IsPassword="True" HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" />
+        <Button
+    x:Name="mainpage"
+    Text="Iniciar sesión"
+    Clicked="mainpage_Clicked"
+    HorizontalOptions="Center" 
+    BackgroundColor="#F85F6A" Margin="30" WidthRequest="300"></Button>
+        <Label Text="ó" Margin="10" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title"></Label>
+        <Button Text="Registrate" Clicked="OnRegisterClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="#F85F6A" FontAttributes="Bold"/>
+        <Button Text="Recuperar contraseña?" Clicked="OnForgotPasswordClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>
+    </VerticalStackLayout>
+</ContentPage>

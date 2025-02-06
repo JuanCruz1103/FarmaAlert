@@ -370,9 +370,6 @@ C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-wi
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.dll
-C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\FarmaAlert.dll
-C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.pdb
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.exe
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.deps.json
@@ -515,6 +512,10 @@ C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-wi
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\estadisticas.scale-100.png
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\paciente.scale-100.png
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pastilla.scale-100.png
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.AssemblyInfoInputs.cache
@@ -523,6 +524,9 @@ C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-wi
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.sourcelink.json
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.csproj.Up2Date
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.dll
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\FarmaAlert.dll
+C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.pdb
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.genruntimeconfig.cache
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ref\FarmaAlert.dll
 C:\Users\juanp\OneDrive\Escritorio\FarmaAlertMAUI\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\priconfig.xml

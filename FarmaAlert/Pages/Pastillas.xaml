@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FarmaAlert.HomePage"
+             x:Class="FarmaAlert.Pages.Pastillas"
              Title="Inicio">
 
     <Grid>
@@ -15,6 +15,8 @@
                             <Label Text="{Binding Time, StringFormat='Hora: {0}'}" FontSize="Small" />
                             <Label Text="{Binding Frequency, StringFormat='Frecuencia: {0}'}" FontSize="Small" />
                             <Label Text="{Binding Amount, StringFormat='Cantidad: {0}'}" FontSize="Small" />
+                            <Label Text="{Binding Paciente, StringFormat='Paciente: {0}'}" FontSize="Small" />
+                            <Label Text="{Binding Habitacion, StringFormat='Habitación: {0}'}" FontSize="Small" />
                         </StackLayout>
                     </Frame>
                 </DataTemplate>

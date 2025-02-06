@@ -1,4 +1,4 @@
-namespace FarmaAlert;
+namespace FarmaAlert.Pages;
 
 public partial class login : ContentPage
 {
