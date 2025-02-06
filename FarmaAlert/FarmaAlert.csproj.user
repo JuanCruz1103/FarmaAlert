@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - API 33 (Android 13.0 - API 33)</ActiveDebugProfile>
+    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
   </PropertyGroup>
@@ -11,13 +11,30 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <MauiXaml Update="Pages\AgregarAlarma.xaml">
+=======
+    <MauiXaml Update="Agregar_Alarma.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Estadisticas.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="HomePage.xaml">
+>>>>>>> d91c88b3678d92934b348f61e9baf324a8aec3a6
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\DetallePaciente.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+<<<<<<< HEAD
     <MauiXaml Update="Pages\Estadisticas.xaml">
+=======
+    <MauiXaml Update="Pasientes.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="recoberPassword.xaml">
+>>>>>>> d91c88b3678d92934b348f61e9baf324a8aec3a6
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Pages\HomePage.xaml">

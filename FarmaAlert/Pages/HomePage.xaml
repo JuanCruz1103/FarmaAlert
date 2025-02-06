@@ -7,12 +7,23 @@
             Title="FarmaAlaert"
             BarBackgroundColor="LightBlue"
             BarTextColor="White"
-            
             >
 
-    <local:Pastillas/>
+    <NavigationPage Title="Pastillas">
+        <x:Arguments>
+            <local:Pastillas/>
+        </x:Arguments>
+    </NavigationPage>
 
-     <local:Estadisticas/>
+    <NavigationPage Title="Estadisticas">
+        <x:Arguments>
+            <local:Estadisticas/>
+        </x:Arguments>
+    </NavigationPage>
 
-    <local:Pacientes/>
+    <NavigationPage Title="Pacientes">
+        <x:Arguments>
+            <local:Pacientes/>
+        </x:Arguments>
+    </NavigationPage>
 </TabbedPage>
