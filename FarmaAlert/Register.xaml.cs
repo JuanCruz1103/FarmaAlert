@@ -7,7 +7,7 @@ public partial class Register : ContentPage
 		InitializeComponent();
 	}
 
-    private async void OnRegisterbtn_Clicked(object sender, EventArgs e)
+    private async void Registerbtn_Clicked(object sender, EventArgs e)
     {
         await DisplayAlert("Success", "Registration successful", "OK");
         await Navigation.PopAsync();
