@@ -10,19 +10,14 @@
        HeightRequest="150"
        HorizontalOptions="Center"
        BackgroundColor="Grey" Margin="5"/>
-        
+
         <Label Text="Bienvenido" FontSize="32" VerticalOptions="End" Margin="10" 
                HorizontalOptions="Center" BackgroundColor="White" TextColor="Black" FontAttributes="Bold"/>
-        
-<<<<<<< HEAD:FarmaAlert/Pages/login.xaml
+
         <Label Margin="15" Text="Introduce tu correo electronico" VerticalOptions="Center" HorizontalOptions="Start"
                 FontSize="15" BackgroundColor="White" TextColor="#F85F6A" TranslationX="30" TranslationY="10" FontAttributes="Bold"/>
         <Entry HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" TranslationY="-10"/>
-=======
-        <Label Margin="15" Text="Introduce tu correo electronico" VerticalOptions="Center" HorizontalOptions="Center"
-                FontSize="15" BackgroundColor="White" TextColor="Black"/>
-        <Entry HorizontalTextAlignment="Center"/>
->>>>>>> d91c88b3678d92934b348f61e9baf324a8aec3a6:FarmaAlert/login.xaml
+
         <Label
     Text="Introduce tu contraseña"
     VerticalOptions="Center"
@@ -30,17 +25,14 @@
     FontSize="15"
     TextColor="#F85F6A"  Margin="5" TranslationX="-70" TranslationY="10"  FontAttributes="Bold"/>
         <Entry IsPassword="True" HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" />
+
         <Button
     x:Name="mainpage"
     Text="Iniciar sesión"
     Clicked="mainpage_Clicked"
-<<<<<<< HEAD:FarmaAlert/Pages/login.xaml
     HorizontalOptions="Center" 
     BackgroundColor="#F85F6A" Margin="30" WidthRequest="300"></Button>
-=======
-    HorizontalOptions="Center"
-    BackgroundColor="Green" ></Button>
->>>>>>> d91c88b3678d92934b348f61e9baf324a8aec3a6:FarmaAlert/login.xaml
+
         <Label Text="ó" Margin="10" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title"></Label>
         <Button Text="Registrate" Clicked="OnRegisterClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="#F85F6A" FontAttributes="Bold"/>
         <Button Text="Recuperar contraseña?" Clicked="OnForgotPasswordClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>

@@ -3,80 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
+    <ActiveDebugProfile>Pixel 5 - API 33 (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
-    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
-  </PropertyGroup>
-  <ItemGroup>
-<<<<<<< HEAD
-    <MauiXaml Update="Pages\AgregarAlarma.xaml">
-=======
-    <MauiXaml Update="Agregar_Alarma.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Estadisticas.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="HomePage.xaml">
->>>>>>> d91c88b3678d92934b348f61e9baf324a8aec3a6
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\DetallePaciente.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-<<<<<<< HEAD
-    <MauiXaml Update="Pages\Estadisticas.xaml">
-=======
-    <MauiXaml Update="Pasientes.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="recoberPassword.xaml">
->>>>>>> d91c88b3678d92934b348f61e9baf324a8aec3a6
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\HomePage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\login.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\Pacientes.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\Pastillas.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\recoberPassword.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Pages\Register.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="App.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="AppShell.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="MainPage.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Platforms\Windows\App.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Platforms\Windows\Package.appxmanifest">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Resources\Styles\Colors.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Update="Resources\Styles\Styles.xaml">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
 </Project>
