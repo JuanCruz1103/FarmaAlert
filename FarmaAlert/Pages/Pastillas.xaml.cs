@@ -18,6 +18,12 @@ public partial class Pastillas : ContentPage
             };
         AlarmasList.ItemsSource= alarms;
     }
+
+    public async void OnAgregarClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new AgregarAlarma());
+    }
+    
 }
 
 public class Alarma

@@ -7,9 +7,22 @@
     Shell.FlyoutBehavior="Disabled"
     Title="FarmaAlert">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Pastillas" Icon="pastilla.png">
+            <ShellContent Title="Pastillas" ContentTemplate="{DataTemplate local:Pages.Pastillas}"
+            Route="Pastillas" />
+        </Tab>
+        
+        <Tab Title="Estadisticas" Icon="estadisticas.png">
+            <ShellContent Title="Estadisticas" ContentTemplate="{DataTemplate local:Pages.Estadisticas}"
+            Route="Estadisticas" />
+        </Tab>
+        
+        <Tab Title="Pacientes" Icon="paciente.png">
+            <ShellContent Title="Pacientes" ContentTemplate="{DataTemplate local:Pages.Pacientes}"
+            Route="Pacientes" />
+        </Tab>
+    </TabBar>
+    
 
 </Shell>

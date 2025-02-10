@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Pastillas"
-             Title="Inicio">
+             Title="Inicio" NavigationPage.HasNavigationBar="False">
 
     <Grid>
         <!-- Lista de Alarmas -->
@@ -31,6 +31,6 @@
                 BackgroundColor="Salmon"
                 TextColor="White"
                 CornerRadius="20"
-                 />
+                Clicked="OnAgregarClicked"/>
     </Grid>
 </ContentPage>

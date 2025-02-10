@@ -86,7 +86,7 @@
 		</MauiXaml>
 		<MauiXaml Update="Pages\recoberPassword.xaml">
 			<Generator>MSBuild:Compile</Generator>
-		</MauiXaml>
+		</MauiXaml>	
 		<MauiXaml Update="Pages\Register.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>

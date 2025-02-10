@@ -17,7 +17,7 @@ public partial class login : ContentPage
         if (isLoginSuccessful)
         {
             // Navegar a HomePage (TabbedPage)
-            await Navigation.PushAsync(new HomePage());
+            await Navigation.PushAsync(new AppShell());
         }
         else
         {
@@ -34,5 +34,14 @@ public partial class login : ContentPage
     private async void OnForgotPasswordClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new recoberPassword());
+
     }
+
+    private async void OnLabelTapped(object sender, EventArgs e)
+    {
+        // Cambia la URL a la que deseas vincular
+        string url = "https://www.ejemplo.com";
+        await Browser.OpenAsync(url, BrowserLaunchMode.SystemPreferred);
+    }   
+
 }
