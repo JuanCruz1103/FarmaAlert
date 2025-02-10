@@ -8,99 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FarmaAlert
-build_property.ProjectDir = C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\
+build_property.ProjectDir = C:\Users\Lenovo\OneDrive\Escritorio\FarmaAlert\FarmaAlert\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTAotOptimizerEnabled = true
-build_property.CsWinRTAotExportsEnabled = 
-build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
-build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
-build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
-build_property.CsWinRTMergeReferencedActivationFactories = 
-build_property.CsWinRTAotWarningLevel = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/App.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/AppShell.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/MainPage.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/AgregarAlarma.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/AgregarAlarma.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.AgregarAlarma.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\AgregarAlarma.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\AgregarAlarma.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/DetallePaciente.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/DetallePaciente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.DetallePaciente.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\DetallePaciente.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\DetallePaciente.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Estadisticas.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/Estadisticas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Estadisticas.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Estadisticas.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Estadisticas.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/HomePage.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/login.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.login.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\login.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\login.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Pacientes.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/Pacientes.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Pacientes.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Pacientes.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Pacientes.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Pastillas.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/Pastillas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Pastillas.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Pastillas.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Pastillas.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/recoberPassword.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/recoberPassword.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.recoberPassword.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\recoberPassword.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\recoberPassword.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Register.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Pages/Register.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Register.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Register.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Resources/Styles/Colors.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Resources/Styles/Styles.xaml]
+[C:/Users/Lenovo/OneDrive/Escritorio/FarmaAlert/FarmaAlert/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
