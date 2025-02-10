@@ -31,11 +31,11 @@ public partial class AgregarAlarma : ContentPage
             return;
         }
 
-        // Aquí puedes guardar los datos en una base de datos, enviarlos a un servicio, etc.
-        // Por ahora, solo mostraremos un mensaje de éxito.
+        // Aquí guardariamos los datos en una colección de mongo
+        // Por ahora, solo simulamos que todo salio bien
         DisplayAlert("Éxito", "Alarma guardada correctamente.", "OK");
 
-        // Limpiar los campos después de guardar
+        // Limpiar los campos después de supuestamente guardar
         NombrePastillaEntry.Text = string.Empty;
         HoraTimePicker.Time = TimeSpan.Zero;
         FechaFinDatePicker.Date = DateTime.Today;

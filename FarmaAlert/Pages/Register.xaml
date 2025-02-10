@@ -5,30 +5,37 @@
              BackgroundColor="White" 
              Title="Registrarse">
     <VerticalStackLayout>
-        <Entry  BackgroundColor="White"  Margin="15"
-               Placeholder="Nombre" PlaceholderColor="Gray" 
-               Keyboard="Text" x:Name="EntryUserName" TextColor="Black"/>
 
-        <Entry BackgroundColor="White"  Margin="10"
-               Placeholder="Correo Electronico" PlaceholderColor="Gray" 
-               Keyboard="Email" x:Name="EntryEmail" TextColor="Black"/>
+        <Label Margin="15"></Label>
+        <Label Text="Nombre completo" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
+                TextColor="#F85F6A"  Margin="-10" TranslationX="-93" TranslationY="10"  FontAttributes="Bold"/>
+        <Entry  BackgroundColor="White"  Margin="25"
+               Placeholder="Jane Doe" PlaceholderColor="Gray" 
+               Keyboard="Text" x:Name="EntryUserName" TextColor="Black" MaximumWidthRequest="370"  VerticalOptions="Center"/>
 
-        <Entry BackgroundColor="White"  Margin="10"
-               Placeholder="Contraseña" PlaceholderColor="Gray" 
+        <Label Text="Correo electronico" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
+             TextColor="#F85F6A"  Margin="-4" TranslationX="-90" TranslationY="10"  FontAttributes="Bold"/>
+        <Entry BackgroundColor="White"  Margin="25"
+               Placeholder="ejemplo@gmail.com" PlaceholderColor="Gray" 
+               Keyboard="Email" x:Name="EntryEmail" MaximumWidthRequest="360"  TextColor="Black" VerticalOptions="Center" />
+
+        <Label Text="Contraseña"  HorizontalOptions="Center" FontSize="15"
+     TextColor="#F85F6A"  Margin="-4" TranslationX="-113" TranslationY="10"  FontAttributes="Bold" />
+        <Entry BackgroundColor="White"  Margin="25"
+               Placeholder="contraseña123@" PlaceholderColor="Gray" 
                Keyboard="Text" x:Name="EntryPassword" TextColor="Black"
-               IsPassword="True"/>
+               IsPassword="True" MaximumWidthRequest="360" VerticalOptions="Center"/>
 
-        <Entry BackgroundColor="White"  Margin="10"
-               Placeholder="Confirmar Contraseña" PlaceholderColor="Gray" 
+        <Label Text="Confirmar contraseña" VerticalOptions  ="Center" HorizontalOptions="Center" FontSize="15"
+     TextColor="#F85F6A"  Margin="-4" TranslationX="-78" TranslationY="10"  FontAttributes="Bold"/>
+        <Entry BackgroundColor="White"  Margin="25"
+               Placeholder="contraseña123@" PlaceholderColor="Gray" 
                Keyboard="Text" x:Name="EntryConfirmPassword"  TextColor="Black"
-               IsPassword="True"/>
+               IsPassword="True" MaximumWidthRequest="360" VerticalOptions="Center"/>
 
-        <Entry BackgroundColor="White"  Margin="10"
-         Placeholder="Numero telefonico" PlaceholderColor="Gray" 
-        Keyboard="Telephone" x:Name="EntryPhone" TextColor="Black"/>
 
         <Button Text="Confirmar" BackgroundColor="Salmon" Clicked="Registerbtn_Clicked" TextColor="White"
-                Margin="80" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>
+                Margin="50" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>
 
         <Button Text="Ya tienes una cuenta?    Iniciar sesión" BackgroundColor="Transparent" Clicked="OnBackToLoginClicked" BorderColor="Black" 
                 TextColor="Black" Margin="10"/>

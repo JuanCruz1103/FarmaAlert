@@ -60,9 +60,9 @@
                     <Picker x:Name="FrecuenciaPicker"
                             TextColor="#333333">
                         <Picker.Items>
-                            <x:String>Diario</x:String>
-                            <x:String>Semanal</x:String>
-                            <x:String>Mensual</x:String>
+                            <x:String>12 horas</x:String>
+                            <x:String>8 horas</x:String>
+                            <x:String>24 horas</x:String>
                         </Picker.Items>
                     </Picker>
                 </VerticalStackLayout>
