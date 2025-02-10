@@ -5,10 +5,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FarmaAlert"
     Shell.FlyoutBehavior="Disabled"
-    Title="FarmaAlert">
+    Title="FarmaAlert" NavigationPage.HasNavigationBar="False">
 
     <TabBar>
-        <Tab Title="Pastillas" Icon="pastilla.png">
+        <Tab Title="Pastillas" Icon="pastilla.png" >
             <ShellContent Title="Pastillas" ContentTemplate="{DataTemplate local:Pages.Pastillas}"
             Route="Pastillas" />
         </Tab>

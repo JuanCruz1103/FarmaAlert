@@ -2,13 +2,145 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.AgregarAlarma"
-             Title="AgregarAlarma"
+             Title="AgregarAlarma" NavigationPage.HasNavigationBar="False"
              >
 
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to Agregar alarma!" TextColor="Black"
-            VerticalOptions="Center"
-            HorizontalOptions="Center" BackgroundColor="BlanchedAlmond" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Nombre de la Pastilla -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Nombre de la Pastilla:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <Entry Placeholder="Ingrese el nombre de la pastilla"
+                           x:Name="NombrePastillaEntry"
+                           TextColor="#333333"
+                           PlaceholderColor="#999999" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Hora -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Hora:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <TimePicker x:Name="HoraTimePicker"
+                                TextColor="#333333" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Fecha Fin -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Fecha Fin:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <DatePicker x:Name="FechaFinDatePicker"
+                                TextColor="#333333" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Frecuencia -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Frecuencia:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <Picker x:Name="FrecuenciaPicker"
+                            TextColor="#333333">
+                        <Picker.Items>
+                            <x:String>Diario</x:String>
+                            <x:String>Semanal</x:String>
+                            <x:String>Mensual</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Dosis -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Dosis:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <Entry Placeholder="Ingrese la dosis"
+                           x:Name="DosisEntry"
+                           Keyboard="Numeric"
+                           TextColor="#333333"
+                           PlaceholderColor="#999999" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Paciente -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Paciente:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <Entry Placeholder="Ingrese el nombre del paciente"
+                           x:Name="PacienteEntry"
+                           TextColor="#333333"
+                           PlaceholderColor="#999999" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Habitación del Paciente -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Habitación del Paciente:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <Entry Placeholder="Ingrese la habitación"
+                           x:Name="HabitacionEntry"
+                           Keyboard="Numeric"
+                           TextColor="#333333"
+                           PlaceholderColor="#999999" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Instrucciones Adicionales -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="10"
+                   Padding="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Instrucciones Adicionales:"
+                           FontSize="14"
+                           TextColor="#555555" />
+                    <Editor Placeholder="Ingrese instrucciones adicionales"
+                            x:Name="InstruccionesEditor"
+                            TextColor="#333333"
+                            PlaceholderColor="#999999"
+                            AutoSize="TextChanges" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Botón para Guardar -->
+            <Button Text="Guardar Alarma"
+                    Clicked="OnGuardarAlarmaClicked"
+                    BackgroundColor="#F85F6A"
+                    TextColor="#FFFFFF"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    Padding="15"
+                    HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

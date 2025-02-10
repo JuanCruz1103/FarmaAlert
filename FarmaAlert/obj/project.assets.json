@@ -419,18 +419,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -446,15 +443,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -2638,18 +2626,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -2665,15 +2650,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -4857,18 +4833,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -4884,15 +4857,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -7076,18 +7040,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -7103,15 +7064,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -9295,18 +9247,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -9322,15 +9271,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -11514,18 +11454,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -11541,15 +11478,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -13733,18 +13661,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -13760,15 +13685,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -15952,18 +15868,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -15979,15 +15892,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -18147,18 +18051,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18174,15 +18075,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -18580,18 +18472,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18607,15 +18496,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -19013,18 +18893,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -19040,15 +18917,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -19446,18 +19314,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -19473,15 +19338,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -19879,18 +19735,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -19906,15 +19759,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -20312,18 +20156,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -20339,15 +20180,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -20745,18 +20577,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -20772,15 +20601,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -21178,18 +20998,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -21205,15 +21022,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -21611,18 +21419,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -21638,15 +21443,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -22044,18 +21840,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -22071,15 +21864,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -22477,18 +22261,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -22504,15 +22285,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -22910,18 +22682,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -22937,15 +22706,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -23343,18 +23103,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23370,15 +23127,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -23776,18 +23524,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23803,15 +23548,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -24209,18 +23945,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24236,15 +23969,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -24642,18 +24366,15 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24669,15 +24390,6 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -24882,6 +24594,19 @@
           }
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -25109,18 +24834,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25253,15 +24980,6 @@
             "assetType": "native",
             "rid": "win10-x86"
           }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -25452,6 +25170,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -25679,18 +25410,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -25797,15 +25530,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -25996,6 +25720,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -26223,18 +25960,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26341,15 +26080,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -26540,6 +26270,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -26767,18 +26510,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -26885,15 +26630,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -27084,6 +26820,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -27311,18 +27060,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27429,15 +27180,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -27628,6 +27370,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -27855,18 +27610,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -27973,15 +27730,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -28172,6 +27920,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -28399,18 +28160,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -28517,15 +28280,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     },
@@ -28719,6 +28473,19 @@
           "build/net6.0-windows10.0.19041.0/_._": {}
         }
       },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Maui.Controls/8.0.100": {
         "type": "package",
         "dependencies": {
@@ -28946,18 +28713,20 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.30": {
+      "Microsoft.Maui.Graphics/8.0.100": {
         "type": "package",
         "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Graphics.Win2D": "1.2.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -29067,15 +28836,6 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       }
     }
@@ -29461,6 +29221,24 @@
         "runtimes/win-arm64/native/Microsoft.Graphics.Canvas.dll",
         "runtimes/win-x64/native/Microsoft.Graphics.Canvas.dll",
         "runtimes/win-x86/native/Microsoft.Graphics.Canvas.dll"
+      ]
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+      "sha512": "s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g==",
+      "type": "package",
+      "path": "microsoft.io.recyclablememorystream/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
+        "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
+        "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.nuspec"
       ]
     },
     "Microsoft.Maui.Controls/8.0.100": {
@@ -30263,10 +30041,10 @@
         "microsoft.maui.essentials.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/9.0.30": {
-      "sha512": "YnlWLhi0SFuWY1GxUGZs96uHPJdaGK86udh2A/wysTYernzF7bmKNJnPvG17QDgdMuqELGC7fxAkqRuHEciY/A==",
+    "Microsoft.Maui.Graphics/8.0.100": {
+      "sha512": "FRvNIXnALXysAw0t0R5jmS4j4qs2n/NaWMcLrinMIoC2tQ/QIL68XEdN1OCtFRWvME8cR180TwSxpEjAIvlebA==",
       "type": "package",
-      "path": "microsoft.maui.graphics/9.0.30",
+      "path": "microsoft.maui.graphics/8.0.100",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -30274,37 +30052,67 @@
         "LICENSE.TXT",
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net9.0-android35.0/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-android35.0/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-android35.0/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0-ios18.0/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-ios18.0/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-ios18.0/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0-macos15.0/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-macos15.0/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-macos15.0/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0-tizen7.0/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-tizen7.0/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-tizen7.0/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Graphics.xml",
-        "lib/net9.0/Microsoft.Maui.Graphics.dll",
-        "lib/net9.0/Microsoft.Maui.Graphics.pdb",
-        "lib/net9.0/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-android33.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-android33.0/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-macos13.0/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-macos13.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-macos13.0/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-tizen7.0/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-tizen7.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-tizen7.0/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0-windows10.0.20348/Microsoft.Maui.Graphics.xml",
+        "lib/net7.0/Microsoft.Maui.Graphics.dll",
+        "lib/net7.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net7.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-android34.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-android34.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-ios18.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-maccatalyst18.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-macos14.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-macos14.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-macos14.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-tizen7.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-tizen7.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-tizen7.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0/Microsoft.Maui.Graphics.xml",
         "lib/netstandard2.0/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.0/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.0/Microsoft.Maui.Graphics.xml",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.9.0.30.nupkg.sha512",
+        "microsoft.maui.graphics.8.0.100.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -31287,53 +31095,6 @@
         "tools/net6.0/System.Text.Json.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
-      ]
-    },
-    "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
-      "type": "package",
-      "path": "system.numerics.vectors/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Numerics.Vectors.dll",
-        "lib/net46/System.Numerics.Vectors.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.Numerics.Vectors.dll",
-        "lib/netstandard1.0/System.Numerics.Vectors.xml",
-        "lib/netstandard2.0/System.Numerics.Vectors.dll",
-        "lib/netstandard2.0/System.Numerics.Vectors.xml",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/System.Numerics.Vectors.dll",
-        "ref/net45/System.Numerics.Vectors.xml",
-        "ref/net46/System.Numerics.Vectors.dll",
-        "ref/net46/System.Numerics.Vectors.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/System.Numerics.Vectors.dll",
-        "ref/netstandard1.0/System.Numerics.Vectors.xml",
-        "ref/netstandard2.0/System.Numerics.Vectors.dll",
-        "ref/netstandard2.0/System.Numerics.Vectors.xml",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.5.0.nupkg.sha512",
-        "system.numerics.vectors.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "Xamarin.Android.Glide/4.15.1.2": {
@@ -33379,28 +33140,28 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Graphics >= 9.0.30",
+      "Microsoft.Maui.Graphics >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.12"
     ],
     "net8.0-ios18.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Graphics >= 9.0.30",
+      "Microsoft.Maui.Graphics >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.12"
     ],
     "net8.0-maccatalyst18.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Graphics >= 9.0.30",
+      "Microsoft.Maui.Graphics >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.12"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.Maui.Graphics >= 9.0.30"
+      "Microsoft.Maui.Graphics >= 8.0.100"
     ]
   },
   "packageFolders": {
@@ -33484,7 +33245,7 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[9.0.30, )"
+            "version": "[8.0.100, )"
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
@@ -33553,7 +33314,7 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[9.0.30, )"
+            "version": "[8.0.100, )"
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
@@ -33610,7 +33371,7 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[9.0.30, )"
+            "version": "[8.0.100, )"
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
@@ -33668,7 +33429,7 @@
           },
           "Microsoft.Maui.Graphics": {
             "target": "Package",
-            "version": "[9.0.30, )"
+            "version": "[8.0.100, )"
           }
         },
         "imports": [

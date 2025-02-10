@@ -26,13 +26,6 @@
     TextColor="#F85F6A"  Margin="5" TranslationX="-70" TranslationY="10"  FontAttributes="Bold"/>
         <Entry IsPassword="True" HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" />
 
-        <Label Text="Visita nuestro sitio web"
-       TextColor="Blue" HorizontalOptions="Center" TextDecorations="None" Margin="20">
-            <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="OnLabelTapped" />
-            </Label.GestureRecognizers>
-        </Label>
-        
         <Button
     x:Name="mainpage"
     Text="Iniciar sesión"

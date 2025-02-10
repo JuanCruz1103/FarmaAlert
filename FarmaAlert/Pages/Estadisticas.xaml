@@ -2,16 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Estadisticas"
-             Title="Estadisticas" NavigationPage.HasBackButton="True">
+             Title="Estadisticas" NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
-            <!-- Título -->
-            <Label Text="Estadísticas"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center" />
-
-            <!-- Gráfico de Pastillas Tomadas -->
+            
+            <!--Gráfico de Pastillas Tomadas--> 
             <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
                 <GraphicsView HeightRequest="150" WidthRequest="150"
                               Drawable="{Binding TomadasDrawable}" />
@@ -21,7 +16,7 @@
                        HorizontalOptions="Center" />
             </VerticalStackLayout>
 
-            <!-- Gráfico de Pastillas No Tomadas -->
+             <!--Gráfico de Pastillas No Tomadas--> 
             <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
                 <GraphicsView HeightRequest="150" WidthRequest="150"
                               Drawable="{Binding NoTomadasDrawable}" />

@@ -81,7 +81,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[9.0.30, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -150,7 +150,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[9.0.30, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -207,7 +207,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[9.0.30, )"
+              "version": "[8.0.100, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -265,7 +265,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[9.0.30, )"
+              "version": "[8.0.100, )"
             }
           },
           "imports": [

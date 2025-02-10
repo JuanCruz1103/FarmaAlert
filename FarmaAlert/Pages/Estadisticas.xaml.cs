@@ -8,12 +8,12 @@ public partial class Estadisticas : ContentPage
     {
         InitializeComponent();
 
-        // Asignar los dibujos a las vistas gráficas
+        //// Asignar los dibujos a las vistas gráficas
         BindingContext = new
         {
             TomadasDrawable = new CircularChartDrawable(64, Colors.Green),
             NoTomadasDrawable = new CircularChartDrawable(40, Colors.Red)
-        };  
+        };
     }
 }
 
@@ -43,8 +43,8 @@ public class CircularChartDrawable : IDrawable
         // Porcentaje en el centro
         canvas.FontSize = 24;
         canvas.FontColor = Colors.Black;
-        canvas.DrawString($"{_percentage}%",
-                  dirtyRect.Center.X, dirtyRect.Center.Y,
-                  HorizontalAlignment.Center, VerticalAlignment.Center);
+        //canvas.DrawString($"{_percentage}%",
+        //          dirtyRect.Center.X, dirtyRect.Center.Y,
+        //          HorizontalAlignment.Center, VerticalAlignment.Center);
     }
 }

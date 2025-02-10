@@ -1,12 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Pacientes"
-             Title="Pacientes">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to Pacientes!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Pacientes"
+             BackgroundColor="White" NavigationPage.HasNavigationBar="False">
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button Text="Alicia Jaqueline" 
+                    BackgroundColor="#E0E0E0" 
+                    TextColor="Black" 
+                    CornerRadius="10"
+                    Clicked="Button_Clicked" Margin="10"/>
+               
+            <Button Text="María Teresa" 
+                    BackgroundColor="#E0E0E0" 
+                    TextColor="Black" 
+                    CornerRadius="10"
+                    Margin="20"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
