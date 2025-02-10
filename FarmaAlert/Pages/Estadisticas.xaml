@@ -3,10 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Estadisticas"
              Title="Estadisticas" NavigationPage.HasBackButton="True">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to Estadisticas!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <!-- Título -->
+            <Label Text="Estadísticas"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Gráfico de Pastillas Tomadas -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <GraphicsView HeightRequest="150" WidthRequest="150"
+                              Drawable="{Binding TomadasDrawable}" />
+                <Label Text="Pastillas Tomadas"
+                       FontSize="16"
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Gráfico de Pastillas No Tomadas -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <GraphicsView HeightRequest="150" WidthRequest="150"
+                              Drawable="{Binding NoTomadasDrawable}" />
+                <Label Text="Pastillas No Tomadas"
+                       FontSize="16"
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

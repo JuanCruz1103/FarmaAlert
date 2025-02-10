@@ -1,1 +1,1 @@
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\FarmaAlert.csproj;x64
+C:\Users\Lenovo\OneDrive\Escritorio\FarmaAlert\FarmaAlert\FarmaAlert.csproj;x64
