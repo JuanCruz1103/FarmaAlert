@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaAlert.Pages.DetalleVinculo"
+             Title="DetalleVinculo">
+    
+    <StackLayout Padding="20">
+        <Label Text="Pastillero Habitación 5"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+        <Label Text="Ubicación: Habitación 5"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0" />
+
+        <Label Text="Estado: Conectado"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0" />
+
+        <Label Text="Última sincronización: 10:00 AM"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               Margin="0,10,0,20" />
+
+        <Button Text="Desvincular"
+                BackgroundColor="#F44336"
+                TextColor="White"
+                FontSize="Medium"
+                HorizontalOptions="Center" />
+
+        <Button Text="Sincronizar"
+                BackgroundColor="#2196F3"
+                TextColor="White"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                Margin="0,10,0,0" />
+
+        <Button Text="Ver Alarmas"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                Margin="0,10,0,0" />
+    </StackLayout>
+</ContentPage>

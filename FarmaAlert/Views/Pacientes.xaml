@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaAlert.Pages.PacientesPage"
+             Title="Pacientes"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Padding="10">
+        <!-- Barra de búsqueda -->
+        <SearchBar x:Name="searchBar"
+                   Placeholder="Buscar pacientes..."
+                   TextChanged="OnSearchBarTextChanged"
+                   Margin="0,0,0,10"/>
+
+        <!-- Lista de pacientes -->
+        <CollectionView x:Name="PacientesCollectionView"
+                        ItemsSource="{Binding PacientesFiltrados}"
+                        SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5" BackgroundColor="#E0E0E0" CornerRadius="10">
+                        <HorizontalStackLayout Spacing="10">
+                            <!-- Imagen del paciente -->
+                            <Image Source="{Binding Foto}"
+                                   WidthRequest="60"
+                                   HeightRequest="60"
+                                   Aspect="AspectFill"
+                                   VerticalOptions="Center"/>
+
+                            <!-- Información del paciente -->
+                            <VerticalStackLayout VerticalOptions="Center">
+                                <Label Text="{Binding Nombre}" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="{Binding Habitacion}" TextColor="Gray"/>
+                                <Label Text="{Binding FechaNacimiento, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Gray"/>
+                                <Label Text="{Binding FechaRegistro, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Gray"/>
+                                <Label Text="{Binding InformacionMedica}" TextColor="Gray"/>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

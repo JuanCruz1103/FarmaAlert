@@ -1,3 +1,4 @@
+
 namespace FarmaAlert.Pages;
 
 public partial class Pastillas : ContentPage
@@ -24,6 +25,10 @@ public partial class Pastillas : ContentPage
         await Navigation.PushAsync(new AgregarAlarma());
     }
     
+    public async void OnOpcionesClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new conexion());
+    }
 }
 
 public class Alarma

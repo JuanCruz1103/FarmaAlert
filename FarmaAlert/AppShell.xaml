@@ -19,7 +19,7 @@
         </Tab>
         
         <Tab Title="Pacientes" Icon="paciente.png">
-            <ShellContent Title="Pacientes" ContentTemplate="{DataTemplate local:Pages.Pacientes}"
+            <ShellContent Title="Pacientes" ContentTemplate="{DataTemplate local:Pages.PacientesPage}"
             Route="Pacientes" />
         </Tab>
     </TabBar>

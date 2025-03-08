@@ -40,60 +40,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/AgregarAlarma.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.AgregarAlarma.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\AgregarAlarma.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\AgregarAlarma.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/DetallePaciente.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.DetallePaciente.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\DetallePaciente.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\DetallePaciente.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Estadisticas.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Estadisticas.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Estadisticas.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Estadisticas.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/HomePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.HomePage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/login.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.login.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\login.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\login.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Pacientes.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Pacientes.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Pacientes.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Pacientes.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Pastillas.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Pastillas.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Pastillas.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Pastillas.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/recoberPassword.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.recoberPassword.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\recoberPassword.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\recoberPassword.xaml
-
-[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Pages/Register.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Pages.Register.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\Register.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\Register.xaml
-
 [C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Resources.Styles.Colors.xaml
@@ -105,3 +51,75 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/AgregarAlarma.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.AgregarAlarma.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AgregarAlarma.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AgregarAlarma.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/BuscarDispositivo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.BuscarDispositivo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BuscarDispositivo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BuscarDispositivo.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/conexion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.conexion.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\conexion.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\conexion.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/DetalleVinculo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.DetalleVinculo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DetalleVinculo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DetalleVinculo.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/Estadisticas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.Estadisticas.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Estadisticas.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Estadisticas.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\login.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/Pacientes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.Pacientes.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pacientes.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pacientes.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/Pastillas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.Pastillas.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pastillas.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pastillas.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/recoberPassword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.recoberPassword.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\recoberPassword.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\recoberPassword.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Register.xaml
+
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/VincularDispositivo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.VincularDispositivo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VincularDispositivo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VincularDispositivo.xaml

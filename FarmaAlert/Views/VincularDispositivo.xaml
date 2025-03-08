@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaAlert.Pages.VincularDispositivo"
+             Title="VincularDispositivo">
+    <StackLayout Padding="20">
+        <Label Text="Pastillero Habitación 5"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+        <Label Text="Señal: 🟢"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               Margin="0,10,0,20" />
+
+        <Label Text="Ingrese el código de seguridad"
+               FontSize="Medium"
+               HorizontalOptions="Center" />
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Margin="0,20,0,0">
+            <Button Text="Código QR"
+                    BackgroundColor="#FF9800"
+                    TextColor="White"
+                    FontSize="Medium"
+                    Margin="0,0,10,0" />
+            <Button Text="Ingresar PIN"
+                    BackgroundColor="#FF9800"
+                    TextColor="White"
+                    FontSize="Medium" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Margin="0,20,0,0">
+            <Button Text="Confirmar"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    FontSize="Medium"
+                    Margin="0,0,10,0" />
+            <Button Text="Cancelar"
+                    BackgroundColor="#F44336"
+                    TextColor="White"
+                    FontSize="Medium" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

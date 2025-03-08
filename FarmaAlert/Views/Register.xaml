@@ -9,18 +9,18 @@
         <Label Margin="15"></Label>
         <Label Text="Nombre completo" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
                 TextColor="#F85F6A"  Margin="-10" TranslationX="-93" TranslationY="10"  FontAttributes="Bold"/>
-        <Entry  BackgroundColor="White"  Margin="25"
+        <Entry BackgroundColor="White"  Margin="25"
                Placeholder="Jane Doe" PlaceholderColor="Gray" 
                Keyboard="Text" x:Name="EntryUserName" TextColor="Black" MaximumWidthRequest="370"  VerticalOptions="Center"/>
 
-        <Label Text="Correo electronico" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
+        <Label Text="Correo electrónico" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
              TextColor="#F85F6A"  Margin="-4" TranslationX="-90" TranslationY="10"  FontAttributes="Bold"/>
         <Entry BackgroundColor="White"  Margin="25"
                Placeholder="ejemplo@gmail.com" PlaceholderColor="Gray" 
-               Keyboard="Email" x:Name="EntryEmail" MaximumWidthRequest="360"  TextColor="Black" VerticalOptions="Center" />
+               Keyboard="Email" x:Name="EntryEmail" MaximumWidthRequest="360"  TextColor="Black" VerticalOptions="Center"/>
 
         <Label Text="Contraseña"  HorizontalOptions="Center" FontSize="15"
-     TextColor="#F85F6A"  Margin="-4" TranslationX="-113" TranslationY="10"  FontAttributes="Bold" />
+     TextColor="#F85F6A"  Margin="-4" TranslationX="-113" TranslationY="10"  FontAttributes="Bold"/>
         <Entry BackgroundColor="White"  Margin="25"
                Placeholder="contraseña123@" PlaceholderColor="Gray" 
                Keyboard="Text" x:Name="EntryPassword" TextColor="Black"
@@ -32,7 +32,6 @@
                Placeholder="contraseña123@" PlaceholderColor="Gray" 
                Keyboard="Text" x:Name="EntryConfirmPassword"  TextColor="Black"
                IsPassword="True" MaximumWidthRequest="360" VerticalOptions="Center"/>
-
 
         <Button Text="Confirmar" BackgroundColor="Salmon" Clicked="Registerbtn_Clicked" TextColor="White"
                 Margin="50" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>

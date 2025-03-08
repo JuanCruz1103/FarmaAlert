@@ -4,6 +4,15 @@
              x:Class="FarmaAlert.Pages.Pastillas"
              Title="Inicio" NavigationPage.HasNavigationBar="False">
 
+    <!-- Botón en la barra de navegación -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Opciones"
+                     IconImageSource="settings.png"
+                     Order="Primary"
+                     Priority="0"
+                     Clicked="OnOpcionesClicked"/>
+    </ContentPage.ToolbarItems>
+
     <Grid>
         <!-- Lista de Alarmas -->
         <CollectionView x:Name="AlarmasList" Margin="20">

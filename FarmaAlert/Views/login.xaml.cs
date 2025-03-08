@@ -37,4 +37,8 @@ public partial class login : ContentPage
 
     }
 
+    private void ContentPage_NavigatedFrom(object sender, NavigatedFromEventArgs e)
+    {
+
+    }
 }

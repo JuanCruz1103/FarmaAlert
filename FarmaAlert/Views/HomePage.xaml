@@ -23,7 +23,7 @@
 
     <NavigationPage Title="Pacientes">
         <x:Arguments>
-            <local:Pacientes/>
+            <local:PacientesPage/>
         </x:Arguments>
     </NavigationPage>
 </TabbedPage>

@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.login"
              BackgroundColor="White"
-             Title="Inicio de sesión" >
+             Title="Inicio de sesión" NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout>
         <Image Source="logo.png"  
        SemanticProperties.Description="MEDIC!!"
        HeightRequest="150"
        HorizontalOptions="Center"
-       BackgroundColor="Grey" Margin="5"/>
+       BackgroundColor="Grey" Margin="40"/>
 
         <Label  Text="Bienvenido" FontSize="32" VerticalOptions="End" Margin="10" 
                HorizontalOptions="Center" BackgroundColor="White" TextColor="Black" FontAttributes="Bold"/>
@@ -31,10 +31,9 @@
     Text="Iniciar sesión"
     Clicked="mainpage_Clicked"
     HorizontalOptions="Center" 
-    BackgroundColor="#F85F6A" Margin="30" WidthRequest="300"></Button>
+    BackgroundColor="#F85F6A" Margin="40" WidthRequest="300"></Button>
 
-        <Label Text="ó" Margin="10" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title"></Label>
-        <Button Text="Registrate" Clicked="OnRegisterClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="#F85F6A" FontAttributes="Bold"/>
+        <Button Text="Registrate" Clicked="OnRegisterClicked" Margin="20" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="#F85F6A" FontAttributes="Bold"/>
         <Button Text="Recuperar contraseña?" Clicked="OnForgotPasswordClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>
     </VerticalStackLayout>
 </ContentPage>

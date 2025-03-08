@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaAlert.Pages.conexion"
+             Title="conexion" NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout
+            Spacing="16"
+            Padding="30"
+            VerticalOptions="Start"
+            Grid.Row="0">
+
+            <Frame CornerRadius="8" Padding="16">
+                <VerticalStackLayout>
+                    <Button Clicked="OnDetalleClicked" BackgroundColor="Transparent" MaximumHeightRequest="-19"></Button>
+                    <Label Text="Pastillero número 8" FontSize="18" FontAttributes="Bold" />
+                    <Label Text="Número de cuarto: 12" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="8" Padding="16">
+                <VerticalStackLayout>
+                    <Label Text="Pastillero número 12" FontSize="18" FontAttributes="Bold" />
+                    <Label Text="Número de cuarto: 5" />
+                    <Button Text="" Clicked="OnDetalleClicked" Margin="0" MaximumHeightRequest="10" BackgroundColor="White"></Button>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="8" Padding="16">
+                <VerticalStackLayout>
+                    <Label Text="Pastillero número 15" FontSize="18" FontAttributes="Bold" />
+                    <Label Text="Número de cuarto: 20" />
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+
+        <Button Text="🔍 Buscar pastillero " 
+         VerticalOptions="End" 
+         HorizontalOptions="End" 
+         Margin="30"
+         BackgroundColor="Salmon"
+         TextColor="White"
+         CornerRadius="20" 
+         Clicked="OnAgregarClicked"
+         Grid.Row="1"/>
+    </Grid>
+</ContentPage>

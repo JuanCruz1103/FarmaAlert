@@ -57,6 +57,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Views\BuscarDispositivo.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
@@ -64,32 +68,47 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<MauiXaml Update="Pages\AgregarAlarma.xaml">
+		<MauiXaml Update="Views\AgregarAlarma.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Pages\DetallePaciente.xaml">
+		<MauiXaml Update="Views\BuscarDispositivo.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\conexion.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\DetalleVinculo.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Views\Estadisticas.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Pages\Estadisticas.xaml">
+		<MauiXaml Update="Views\HomePage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Pages\HomePage.xaml">
+		<MauiXaml Update="Views\login.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Pages\login.xaml">
+		<MauiXaml Update="Views\Pacientes.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Pages\Pacientes.xaml">
+		<MauiXaml Update="Views\Pastillas.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
-		<MauiXaml Update="Pages\Pastillas.xaml">
-			<Generator>MSBuild:Compile</Generator>
-		</MauiXaml>
-		<MauiXaml Update="Pages\recoberPassword.xaml">
+		<MauiXaml Update="Views\recoberPassword.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>	
-		<MauiXaml Update="Pages\Register.xaml">
+		<MauiXaml Update="Views\Register.xaml">
 			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>	
+		<MauiXaml Update="Views\VincularDispositivo.xaml">
+		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Helpers\" />
+	  <Folder Include="Services\" />
+	  <Folder Include="ViewModel\" />
 	</ItemGroup>
 </Project>
