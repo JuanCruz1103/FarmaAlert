@@ -153,8 +153,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-06T15:39:12.583Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -178,8 +177,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\HomePage.xaml",
               "ViewState": "AgIAAA8AAAAAAAAAAADgvxkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-30T00:30:43.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T00:30:43.89Z"
             },
             {
               "$type": "Document",
@@ -203,8 +201,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\Pacientes.xaml",
               "ViewState": "AgIAAAkAAAAAAAAAAADgvxIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T15:36:05.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:36:05.859Z"
             },
             {
               "$type": "Document",
@@ -226,7 +223,7 @@
               "RelativeDocumentMoniker": "FarmaAlert\\Views\\AgregarAlarma.xaml.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\aPrueba\\FarmaAlert\\Views\\AgregarAlarma.xaml.cs",
               "RelativeToolTip": "FarmaAlert\\Views\\AgregarAlarma.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADgvwoAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAADgvxIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T15:52:18.365Z",
               "EditorCaption": ""
@@ -313,8 +310,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\DetalleVinculo.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-13T16:22:10.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T16:22:10.523Z"
             },
             {
               "$type": "Document",
@@ -338,7 +334,8 @@
               "RelativeToolTip": "FarmaAlert\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T21:13:23.09Z"
+              "WhenOpened": "2025-01-29T21:13:23.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -350,8 +347,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\Pastillas.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T14:49:45.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T14:49:45.466Z"
             },
             {
               "$type": "Document",
@@ -375,8 +371,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\BuscarDispositivo.xaml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-13T16:16:45.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T16:16:45.563Z"
             },
             {
               "$type": "Document",
@@ -388,8 +383,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\conexion.xaml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-13T06:12:46.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T06:12:46.613Z"
             },
             {
               "$type": "Document",
@@ -401,8 +395,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\recoberPassword.xaml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-30T03:48:25.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T03:48:25.118Z"
             },
             {
               "$type": "Document",
@@ -414,8 +407,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\Register.xaml",
               "ViewState": "AgIAABgAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T16:37:22.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T16:37:22.614Z"
             },
             {
               "$type": "Document",
@@ -427,8 +419,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\Estadisticas.xaml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T15:36:24.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:36:24.684Z"
             },
             {
               "$type": "Document",
@@ -440,8 +431,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\login.xaml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T20:45:47.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T20:45:47.953Z"
             },
             {
               "$type": "Document",
@@ -453,8 +443,7 @@
               "RelativeToolTip": "FarmaAlert\\Views\\VincularDispositivo.xaml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-13T16:17:49.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T16:17:49.327Z"
             },
             {
               "$type": "Document",
