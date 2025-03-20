@@ -223,6 +223,12 @@
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\paciente.scale-100.png">
       <PackagePath>paciente.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\paciente1.scale-100.png">
+      <PackagePath>paciente1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pacoente2.scale-100.png">
+      <PackagePath>pacoente2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pastilla.scale-100.png">
       <PackagePath>pastilla.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -265,6 +271,9 @@
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.io.recyclablememorystream\3.0.1\lib\net6.0\Microsoft.IO.RecyclableMemoryStream.dll">
+      <PackagePath>Microsoft.IO.RecyclableMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
     </AppxPackagedFile>
@@ -280,7 +289,7 @@
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.essentials\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.graphics\9.0.30\lib\netstandard2.1\Microsoft.Maui.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.graphics\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
@@ -438,6 +447,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.Maui.Controls.HotReload.Forms.dll">
+      <PackagePath>Microsoft.Maui.Controls.HotReload.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\XamlDiagnostics\Mobile\Microsoft.VisualStudio.DesignTools.TapContract.dll">
+      <PackagePath>Microsoft.VisualStudio.DesignTools.TapContract.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

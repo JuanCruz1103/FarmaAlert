@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="FarmaAlert.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -6,23 +5,21 @@
     xmlns:local="clr-namespace:FarmaAlert"
     Shell.FlyoutBehavior="Disabled"
     Title="FarmaAlert" NavigationPage.HasNavigationBar="False">
-
     <TabBar>
         <Tab Title="Pastillas" Icon="pastilla.png" >
             <ShellContent Title="Pastillas" ContentTemplate="{DataTemplate local:Pages.Pastillas}"
             Route="Pastillas" />
         </Tab>
-        
+
         <Tab Title="Estadisticas" Icon="estadisticas.png">
             <ShellContent Title="Estadisticas" ContentTemplate="{DataTemplate local:Pages.Estadisticas}"
             Route="Estadisticas" />
         </Tab>
-        
+
         <Tab Title="Pacientes" Icon="paciente.png">
             <ShellContent Title="Pacientes" ContentTemplate="{DataTemplate local:Pages.PacientesPage}"
             Route="Pacientes" />
         </Tab>
     </TabBar>
-    
 
 </Shell>

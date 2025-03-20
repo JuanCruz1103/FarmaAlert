@@ -24,8 +24,9 @@ namespace FarmaAlert.Pages
         {
             return new ObservableCollection<PacientesModel>
             {
-                new PacientesModel { Nombre = "Alicia Jaqueline", Habitacion = "101", FechaRegistro=new DateTime(1980, 8, 12), FechaNacimiento = new DateTime(1950, 5, 10), InformacionMedica = "Diabetes tipo 2" },
-                new PacientesModel { Nombre = "María Teresa", Habitacion = "102", FechaRegistro=new DateTime(1980, 8, 12), FechaNacimiento = new DateTime(1945, 8, 22), InformacionMedica = "Hipertensión arterial"},
+                new PacientesModel { Nombre = "Alicia Jaqueline", Habitacion = "101", FechaRegistro=new DateTime(1980, 8, 12), FechaNacimiento = new DateTime(1950, 5, 10), InformacionMedica = "Diabetes tipo 2", Foto="dotnet_bot.png" },
+                new PacientesModel { Nombre = "María Teresa", Habitacion = "102", FechaRegistro=new DateTime(1980, 8, 12), FechaNacimiento = new DateTime(1945, 8, 22), InformacionMedica = "Hipertensión arterial", Foto="paciente1.png" },
+
             };
         }
 

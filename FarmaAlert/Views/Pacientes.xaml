@@ -23,23 +23,26 @@
                         <HorizontalStackLayout Spacing="10">
                             <!-- Imagen del paciente -->
                             <Image Source="{Binding Foto}"
-                                   WidthRequest="60"
-                                   HeightRequest="60"
-                                   Aspect="AspectFill"
-                                   VerticalOptions="Center"/>
-
+                           WidthRequest="60"
+                           HeightRequest="60"
+                           Aspect="AspectFill"
+                           VerticalOptions="Center"  Opacity="100"/>
                             <!-- Información del paciente -->
                             <VerticalStackLayout VerticalOptions="Center">
-                                <Label Text="{Binding Nombre}" FontAttributes="Bold" TextColor="Black"/>
+                                <Label Text="{Binding Nombre, StringFormat='Nombre: {0}'}" FontAttributes="Bold" TextColor="Black" />
                                 <Label Text="{Binding Habitacion}" TextColor="Gray"/>
                                 <Label Text="{Binding FechaNacimiento, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Gray"/>
                                 <Label Text="{Binding FechaRegistro, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Gray"/>
                                 <Label Text="{Binding InformacionMedica}" TextColor="Gray"/>
                             </VerticalStackLayout>
+
                         </HorizontalStackLayout>
+                        
                     </Frame>
+                    
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            
         </CollectionView>
     </VerticalStackLayout>
 </ContentPage>

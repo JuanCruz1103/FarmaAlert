@@ -353,10 +353,12 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccataly
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\paciente.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pastilla.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\estadisticas.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\paciente.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logo.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\paciente1.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pacoente2.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -392,6 +394,3 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccataly
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\FarmaAlert.AssemblyInfo.cs
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\FarmaAlert.csproj.CoreCompileInputs.cache
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\FarmaAlert.sourcelink.json
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\FarmaAlert.dll
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\refint\FarmaAlert.dll
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\FarmaAlert.pdb

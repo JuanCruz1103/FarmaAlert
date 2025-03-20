@@ -15,6 +15,7 @@
 
     <Grid>
         <!-- Lista de Alarmas -->
+        
         <CollectionView x:Name="AlarmasList" Margin="20">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
@@ -26,6 +27,7 @@
                             <Label Text="{Binding Amount, StringFormat='Cantidad: {0}'}" FontSize="Small" />
                             <Label Text="{Binding Paciente, StringFormat='Paciente: {0}'}" FontSize="Small" />
                             <Label Text="{Binding Habitacion, StringFormat='Habitación: {0}'}" FontSize="Small" />
+                            <Button></Button>
                         </StackLayout>
                     </Frame>
                 </DataTemplate>

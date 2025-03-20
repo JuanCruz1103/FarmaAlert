@@ -4227,9 +4227,11 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\m
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\pastilla.png
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\estadisticas.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\estadisticas.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\paciente.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\pacoente2.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\paciente1.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
@@ -4326,8 +4328,6 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\F
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.AssemblyInfo.cs
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.csproj.CoreCompileInputs.cache
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.sourcelink.json
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.dll
-C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.pdb
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\bin\Debug\net8.0-android\FarmaAlert.runtimeconfig.json
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\bin\Debug\net8.0-android\FarmaAlert.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\bin\Debug\net8.0-android\FarmaAlert.pdb
@@ -4341,6 +4341,8 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\bin\Debug\net8.0-android\M
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\XamlC.stamp
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.csproj.Up2Date
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.dll
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.pdb
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.genruntimeconfig.cache
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\FarmaAlert.runtimeconfig.json.bin
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\bin\com.companyname.farmaalert.apk
@@ -4411,6 +4413,7 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\a
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\ms\Microsoft.Maui.Controls.resources.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\nb\Microsoft.Maui.Controls.resources.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\netstandard.dll
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\nl\Microsoft.Maui.Controls.resources.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\pl\Microsoft.Maui.Controls.resources.dll
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\android\assets\pt-BR\Microsoft.Maui.Controls.resources.dll
