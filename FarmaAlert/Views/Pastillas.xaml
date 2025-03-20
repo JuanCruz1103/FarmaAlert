@@ -4,44 +4,50 @@
              x:Class="FarmaAlert.Pages.Pastillas"
              Title="Inicio" NavigationPage.HasNavigationBar="False">
 
-    <!-- Botón en la barra de navegación -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Opciones"
-                     IconImageSource="settings.png"
+        <ToolbarItem Text="Cerrar sesión"
+                     IconImageSource="logout.png"
                      Order="Primary"
                      Priority="0"
-                     Clicked="OnOpcionesClicked"/>
+                     Clicked="OnCerrarSesionClicked"/>
     </ContentPage.ToolbarItems>
 
     <Grid>
         <!-- Lista de Alarmas -->
-        
-        <CollectionView x:Name="AlarmasList" Margin="20">
+        <CollectionView x:Name="AlarmasList" Margin="20" SelectionChanged="OnAlarmaSeleccionada">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame Padding="10" BackgroundColor="#F0F0F0" CornerRadius="10" Margin="10">
-                        <StackLayout>
-                            <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" />
-                            <Label Text="{Binding Time, StringFormat='Hora: {0}'}" FontSize="Small" />
-                            <Label Text="{Binding Frequency, StringFormat='Frecuencia: {0}'}" FontSize="Small" />
-                            <Label Text="{Binding Amount, StringFormat='Cantidad: {0}'}" FontSize="Small" />
-                            <Label Text="{Binding Paciente, StringFormat='Paciente: {0}'}" FontSize="Small" />
-                            <Label Text="{Binding Habitacion, StringFormat='Habitación: {0}'}" FontSize="Small" />
-                            <Button></Button>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" />
+                                <Label Text="{Binding Time, StringFormat='Hora: {0}'}" FontSize="Small" />
+                                <Label Text="{Binding Frequency, StringFormat='Frecuencia: {0}'}" FontSize="Small" />
+                                <Label Text="{Binding Amount, StringFormat='Cantidad: {0}'}" FontSize="Small" />
+                                <Label Text="{Binding Paciente, StringFormat='Paciente: {0}'}" FontSize="Small" />
+                                <Label Text="{Binding Habitacion, StringFormat='Habitación: {0}'}" FontSize="Small" />
+                            </StackLayout>
+                            <Button Text="🗑" BackgroundColor="Red" TextColor="White" Clicked="OnEliminarAlarma" CommandParameter="{Binding}" />
                         </StackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <!-- Botón para agregar alarmas -->
-        <Button Text="Agregar Alarma" 
-                VerticalOptions="End" 
-                HorizontalOptions="End" 
-                Margin="20"
-                BackgroundColor="Salmon"
-                TextColor="White"
-                CornerRadius="20"
-                Clicked="OnAgregarClicked"/>
+        <!-- Botón flotante de agregar -->
+        <AbsoluteLayout>
+            <StackLayout x:Name="OpcionesAgregar" IsVisible="False" AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Button Text="Nueva Alarma" BackgroundColor="Green" TextColor="White" Clicked="OnNuevaAlarmaClicked"/>
+                <Button Text="Dispensar Pastilla" BackgroundColor="Blue" TextColor="White" Clicked="OnDispensarClicked"/>
+            </StackLayout>
+
+            <Button x:Name="BtnAgregar" Text="+" FontSize="24"
+                    VerticalOptions="End" HorizontalOptions="End"
+                    Margin="20" WidthRequest="60" HeightRequest="60"
+                    BackgroundColor="Salmon" TextColor="White"
+                    CornerRadius="30"
+                    Clicked="OnAgregarClicked"/>
+        </AbsoluteLayout>
+
     </Grid>
 </ContentPage>

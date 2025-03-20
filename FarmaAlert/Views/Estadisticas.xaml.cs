@@ -1,4 +1,5 @@
 using Microsoft.Maui.Graphics;
+using FarmaAlert.ViewModel;
 
 namespace FarmaAlert.Pages;
 
@@ -9,11 +10,11 @@ public partial class Estadisticas : ContentPage
         InitializeComponent();
 
         //// Asignar los dibujos a las vistas gráficas
-        BindingContext = new
-        {
-            TomadasDrawable = new CircularChartDrawable(64, Colors.Green),
-            NoTomadasDrawable = new CircularChartDrawable(40, Colors.Red)
-        };
+        BindingContext = new StatisticsViewModel();
+        //{
+        //    TomadasDrawable = new CircularChartDrawable(64, Colors.Green),
+        //    NoTomadasDrawable = new CircularChartDrawable(40, Colors.Red)
+        //};
     }
 }
 

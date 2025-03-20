@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Estadisticas"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
              Title="Estadisticas" NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <VerticalStackLayout Padding="20">
@@ -12,11 +13,11 @@
                     <chart:ChartLegend Placement="Top"/>
                 </chart:SfCircularChart.Legend>
 
-                <chart:PieSeries ItemsSource="{Binding Estadisticas}" XBindingPath="Categoria" YBindingPath="Cantidad">
-                    <chart:PieSeries.DataMarker>
-                        <chart:ChartDataMarker ShowLabel="True"/>
-                    </chart:PieSeries.DataMarker>
-                </chart:PieSeries>
+               <chart:PieSeries ItemsSource="{Binding Estadisticas}" 
+                 XBindingPath="Categoria" 
+                 YBindingPath="Cantidad"
+                 ShowDataLabels="True" />
+
             </chart:SfCircularChart>
 
             <!-- Selector de Filtro -->
