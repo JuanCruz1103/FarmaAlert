@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmaAlert.Views.EditarAlarma"
+             Title="Editar Alarma">
+
+    <StackLayout Padding="20">
+        <!-- Campos para editar la alarma -->
+        <Entry x:Name="NameEntry" Placeholder="Nombre de la Alarma" />
+        <Entry x:Name="TimeEntry" Placeholder="Hora de la Alarma" />
+        <Entry x:Name="FrequencyEntry" Placeholder="Frecuencia" />
+        <Entry x:Name="AmountEntry" Placeholder="Cantidad" Keyboard="Numeric" />
+        <Entry x:Name="PacienteEntry" Placeholder="Paciente" />
+        <Entry x:Name="HabitacionEntry" Placeholder="Habitación" Keyboard="Numeric" />
+
+        <Button Text="Guardar Cambios" BackgroundColor="Green" TextColor="White" Clicked="OnGuardarClicked"/>
+    </StackLayout>
+</ContentPage>

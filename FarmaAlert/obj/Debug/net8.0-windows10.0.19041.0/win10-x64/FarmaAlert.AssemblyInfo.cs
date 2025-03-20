@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FarmaAlert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e64784fd038a2929fdbad84f73850b2606642660")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9643f8dd76c518bc939c33dca9eb394ca3f28e2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FarmaAlert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FarmaAlert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

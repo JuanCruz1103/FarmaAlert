@@ -476,3 +476,7 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossi
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\FarmaAlert.csproj.CoreCompileInputs.cache
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\FarmaAlert.sourcelink.json
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logout.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\FarmaAlert.dll
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\refint\FarmaAlert.dll
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\FarmaAlert.pdb
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\trash.png

@@ -26,6 +26,9 @@
     <MauiXaml Update="Views\DispensarPastilla.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\EditarAlarma.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\VincularDispositivo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

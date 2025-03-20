@@ -5423,3 +5423,5 @@ C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\s
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\logout.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\trash.png
+C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-android\resizetizer\r\drawable\editar.png

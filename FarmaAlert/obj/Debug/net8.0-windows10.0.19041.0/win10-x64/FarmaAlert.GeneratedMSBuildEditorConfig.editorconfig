@@ -88,6 +88,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.Dispensar
 build_metadata.AdditionalFiles.TargetPath = Views\DispensarPastilla.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DispensarPastilla.xaml
 
+[C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/EditarAlarma.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.EditarAlarma.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditarAlarma.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditarAlarma.xaml
+
 [C:/Users/juanp/OneDrive/Escritorio/aPrueba/FarmaAlert/Views/Estadisticas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FarmaAlert.Views.Estadisticas.xaml

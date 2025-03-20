@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Views.DispensarPastilla"
              Title="DispensarPastilla">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout Padding="20" Spacing="15">
+
+
+        <Label Text="Selecciona el Medicamento:"
+               FontSize="18"/>
+        <Picker x:Name="MedicamentoPicker"
+                Title="Selecciona un medicamento"
+                SelectedIndexChanged="OnMedicamentoSelected">
+            <!-- Aquí puedes agregar los medicamentos disponibles -->
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Ibuprofeno</x:String>
+                    <x:String>Paracetamol</x:String>
+                    <x:String>Amoxicilina</x:String>
+                    <x:String>Metformina</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Label Text="Cantidad:"
+               FontSize="18"/>
+        <Entry x:Name="CantidadEntry"
+               Placeholder="Ingrese la cantidad"
+               Keyboard="Numeric"/>
+
+        <Button Text="Dispensar"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                Clicked="OnDispensarClicked"/>
+
+        <Label x:Name="ResultadoLabel"
+               FontSize="18"
+               TextColor="Green"
+               HorizontalOptions="Center"/>
+    </StackLayout>
 </ContentPage>

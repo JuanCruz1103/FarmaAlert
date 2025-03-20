@@ -88,6 +88,9 @@
 		<MauiXaml Update="Views\DispensarPastilla.xaml">
 		  <Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Views\EditarAlarma.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="Views\Estadisticas.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
