@@ -4,27 +4,26 @@
              x:Class="FarmaAlert.Pages.Estadisticas"
              Title="Estadisticas" NavigationPage.HasNavigationBar="False">
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
-            
-            <!--Gráfico de Pastillas Tomadas--> 
-            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
-                <GraphicsView HeightRequest="150" WidthRequest="150"
-                              Drawable="{Binding TomadasDrawable}" />
-                <Label Text="Pastillas Tomadas"
-                       FontSize="16"
-                       TextColor="Gray"
-                       HorizontalOptions="Center" />
-            </VerticalStackLayout>
+        <VerticalStackLayout Padding="20">
 
-             <!--Gráfico de Pastillas No Tomadas--> 
-            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
-                <GraphicsView HeightRequest="150" WidthRequest="150"
-                              Drawable="{Binding NoTomadasDrawable}" />
-                <Label Text="Pastillas No Tomadas"
-                       FontSize="16"
-                       TextColor="Gray"
-                       HorizontalOptions="Center" />
-            </VerticalStackLayout>
+            <!-- Gráfico de Pastel -->
+            <chart:SfCircularChart>
+                <chart:SfCircularChart.Legend>
+                    <chart:ChartLegend Placement="Top"/>
+                </chart:SfCircularChart.Legend>
+
+                <chart:PieSeries ItemsSource="{Binding Estadisticas}" XBindingPath="Categoria" YBindingPath="Cantidad">
+                    <chart:PieSeries.DataMarker>
+                        <chart:ChartDataMarker ShowLabel="True"/>
+                    </chart:PieSeries.DataMarker>
+                </chart:PieSeries>
+            </chart:SfCircularChart>
+
+            <!-- Selector de Filtro -->
+            <Picker Title="Filtrar por" ItemsSource="{Binding Filtros}" SelectedItem="{Binding FiltroSeleccionado}"/>
+
+            <!-- Botón de actualización -->
+            <Button Text="Actualizar" Command="{Binding FiltrarDatos}" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
