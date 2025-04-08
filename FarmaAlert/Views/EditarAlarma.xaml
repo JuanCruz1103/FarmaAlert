@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FarmaAlert.Views.EditarAlarma"
+             x:Class="FarmaAlert.Pages.EditarAlarma"
+             xmlns:viewmodel="clr-namespace:FarmaAlert.ViewModels"
+             x:DataType="viewmodel:EditarAlarmaViewModel"
              Title="Editar Alarma">
 
-    <StackLayout Padding="20">
-        <!-- Campos para editar la alarma -->
-        <Entry x:Name="NameEntry" Placeholder="Nombre de la Alarma" />
-        <Entry x:Name="TimeEntry" Placeholder="Hora de la Alarma" />
-        <Entry x:Name="FrequencyEntry" Placeholder="Frecuencia" />
-        <Entry x:Name="AmountEntry" Placeholder="Cantidad" Keyboard="Numeric" />
-        <Entry x:Name="PacienteEntry" Placeholder="Paciente" />
-        <Entry x:Name="HabitacionEntry" Placeholder="Habitación" Keyboard="Numeric" />
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Editar Alarma"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,20"/>
 
-        <Button Text="Guardar Cambios" BackgroundColor="Green" TextColor="White" Clicked="OnGuardarClicked"/>
-    </StackLayout>
+            <!-- Medicamento -->
+            <Label Text="Medicamento" FontAttributes="Bold"/>
+            <Border Stroke="#E0E0E0" StrokeThickness="1" StrokeShape="RoundRectangle 10">
+                <Entry Text="{Binding NombreMedicamento}" Placeholder="ID del medicamento" Margin="5"/>
+            </Border>
+
+            <!-- Paciente -->
+            <Label Text="Paciente" FontAttributes="Bold"/>
+            <Border Stroke="#E0E0E0" StrokeThickness="1" StrokeShape="RoundRectangle 10">
+                <Entry Text="{Binding IdPaciente}" Placeholder="ID del paciente" Margin="5"/>
+            </Border>
+
+            <!-- Dosis -->
+            <Label Text="Dosis (mg)" FontAttributes="Bold"/>
+            <Border Stroke="#E0E0E0" StrokeThickness="1" StrokeShape="RoundRectangle 10">
+                <Entry Text="{Binding DosisMg}" Placeholder="Cantidad en mg" Keyboard="Numeric" Margin="5"/>
+            </Border>
+
+            <!-- Frecuencia -->
+            <Label Text="Frecuencia (horas)" FontAttributes="Bold"/>
+            <Border Stroke="#E0E0E0" StrokeThickness="1" StrokeShape="RoundRectangle 10">
+                <Entry Text="{Binding FrecuenciaHoras}" Placeholder="Cada cuántas horas" Keyboard="Numeric" Margin="5"/>
+            </Border>
+
+            <!-- Fecha Inicio -->
+            <Label Text="Fecha de inicio" FontAttributes="Bold"/>
+            <DatePicker Date="{Binding FechaInicioTratamiento}"/>
+
+            <!-- Hora Inicio -->
+            <Label Text="Hora de inicio" FontAttributes="Bold"/>
+            <TimePicker Time="{Binding HoraInicio}"/>
+
+            <!-- Fecha Fin -->
+            <Label Text="Fecha de fin" FontAttributes="Bold"/>
+            <DatePicker Date="{Binding FechaFinTratamiento}"/>
+
+            <!-- Instrucciones -->
+            <Label Text="Instrucciones" FontAttributes="Bold"/>
+            <Border Stroke="#E0E0E0" StrokeThickness="1" StrokeShape="RoundRectangle 10">
+                <Editor Text="{Binding Instrucciones}" 
+                        Placeholder="Instrucciones para tomar el medicamento"
+                        HeightRequest="100" 
+                        Margin="5"/>
+            </Border>
+
+            <!-- Estado -->
+            <HorizontalStackLayout Spacing="10">
+                <CheckBox IsChecked="{Binding EstadoAlarma}"/>
+                <Label Text="Activa" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <!-- Botones -->
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="20" Margin="0,20,0,0">
+                <Button Text="Cancelar" 
+                        Grid.Column="0"
+                        BackgroundColor="#FF5252"
+                        TextColor="White"
+                        CornerRadius="10"
+                        Command="{Binding CancelarCommand}"/>
+
+                <Button Text="Guardar Cambios" 
+                        Grid.Column="1"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        CornerRadius="10"
+                        Command="{Binding GuardarCommand}"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

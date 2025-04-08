@@ -1,11 +1,12 @@
-using FarmaAlert.Pages;
+using FarmaAlert.ViewModels;
 
-namespace FarmaAlert;
+namespace FarmaAlert.Pages;
 
 public partial class recoberPassword : ContentPage
 {
-	public recoberPassword()
-	{
-		InitializeComponent();
-	}
+    public recoberPassword(ForgotPasswordViewModel viewModel)
+    {
+        InitializeComponent();
+        BindingContext = viewModel;
+    }
 }

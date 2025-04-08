@@ -5,6 +5,11 @@
     xmlns:local="clr-namespace:FarmaAlert"
     Shell.FlyoutBehavior="Disabled"
     Title="FarmaAlert" NavigationPage.HasNavigationBar="False">
+    
+    <ShellContent 
+    Route="login" NavigationPage.HasNavigationBar="False"
+    ContentTemplate="{DataTemplate local:Pages.login}" />
+    
     <TabBar>
         <Tab Title="Pastillas" Icon="pastilla.png" >
             <ShellContent Title="Pastillas" ContentTemplate="{DataTemplate local:Pages.Pastillas}"

@@ -8,12 +8,13 @@ namespace FarmaAlert.Models
 {
     public class PacientesModel
     {
-        public int IdPaciente { get; set; }
-        public string Nombre { get; set; }
-        public string Habitacion { get; set; }
-        public string Foto { get; set; }
+        public string IdPaciente { get; set; }
+        public string IdPastillero { get; set; }
+        public string NombrePaciente { get; set; }
         public DateTime FechaNacimiento { get; set; }
-        public string InformacionMedica { get; set; }
-        public DateTime FechaRegistro { get; set; }
+        public string HabitacionPaciente { get; set; }
+        public string EstadoPaciente { get; set; }
+        public string? InformacionMedica { get; set; }
+        public DateTime FechaIngreso { get; set; }
     }
 }

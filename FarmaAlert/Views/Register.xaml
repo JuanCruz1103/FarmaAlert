@@ -2,41 +2,60 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Register"
+             xmlns:viewmodel="clr-namespace:FarmaAlert.ViewModels"
+             x:DataType="viewmodel:RegisterViewModel"
              BackgroundColor="White" 
              Title="Registrarse">
     <VerticalStackLayout>
-
         <Label Margin="15"></Label>
         <Label Text="Nombre completo" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
                 TextColor="#F85F6A"  Margin="-10" TranslationX="-93" TranslationY="10"  FontAttributes="Bold"/>
         <Entry BackgroundColor="White"  Margin="25"
-               Placeholder="Jane Doe" PlaceholderColor="Gray" 
-               Keyboard="Text" x:Name="EntryUserName" TextColor="Black" MaximumWidthRequest="370"  VerticalOptions="Center"/>
+               Placeholder="Jane Doe" PlaceholderColor="Gray" Text="{Binding Nombre}"
+               Keyboard="Text" TextColor="Black" MaximumWidthRequest="370"  VerticalOptions="Center"/>
 
-        <Label Text="Correo electrónico" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
+        <Label Text="email electrónico" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
              TextColor="#F85F6A"  Margin="-4" TranslationX="-90" TranslationY="10"  FontAttributes="Bold"/>
-        <Entry BackgroundColor="White"  Margin="25"
+        <Entry BackgroundColor="White"  Margin="25" Text="{Binding email}"
                Placeholder="ejemplo@gmail.com" PlaceholderColor="Gray" 
-               Keyboard="Email" x:Name="EntryEmail" MaximumWidthRequest="360"  TextColor="Black" VerticalOptions="Center"/>
+               Keyboard="Email" TextColor="Black" MaximumWidthRequest="360"  VerticalOptions="Center"/>
 
         <Label Text="Contraseña"  HorizontalOptions="Center" FontSize="15"
-     TextColor="#F85F6A"  Margin="-4" TranslationX="-113" TranslationY="10"  FontAttributes="Bold"/>
-        <Entry BackgroundColor="White"  Margin="25"
+             TextColor="#F85F6A"  Margin="-4" TranslationX="-113" TranslationY="10"  FontAttributes="Bold"/>
+        <Entry BackgroundColor="White"  Margin="25" Text="{Binding Contrasena}"
                Placeholder="contraseña123@" PlaceholderColor="Gray" 
-               Keyboard="Text" x:Name="EntryPassword" TextColor="Black"
+               Keyboard="Text" TextColor="Black"
                IsPassword="True" MaximumWidthRequest="360" VerticalOptions="Center"/>
 
-        <Label Text="Confirmar contraseña" VerticalOptions  ="Center" HorizontalOptions="Center" FontSize="15"
-     TextColor="#F85F6A"  Margin="-4" TranslationX="-78" TranslationY="10"  FontAttributes="Bold"/>
-        <Entry BackgroundColor="White"  Margin="25"
+        <Label Text="Confirmar contraseña" VerticalOptions="Center" HorizontalOptions="Center" FontSize="15"
+             TextColor="#F85F6A"  Margin="-4" TranslationX="-78" TranslationY="10"  FontAttributes="Bold"/>
+        <Entry BackgroundColor="White"  Margin="25" Text="{Binding ConfirmarContrasena}"
                Placeholder="contraseña123@" PlaceholderColor="Gray" 
-               Keyboard="Text" x:Name="EntryConfirmPassword"  TextColor="Black"
+               Keyboard="Text" TextColor="Black"
                IsPassword="True" MaximumWidthRequest="360" VerticalOptions="Center"/>
 
-        <Button Text="Confirmar" BackgroundColor="Salmon" Clicked="Registerbtn_Clicked" TextColor="White"
-                Margin="50" HorizontalOptions="CenterAndExpand" WidthRequest="150"/>
+        <Label Text="{Binding ErrorMessage}" 
+               TextColor="Red" 
+               IsVisible="{Binding ErrorMessage, Converter={StaticResource StringNotEmptyConverter}}"
+               HorizontalOptions="Center"
+               Margin="10" />
 
-        <Button Text="Ya tienes una cuenta?    Iniciar sesión" BackgroundColor="Transparent" Clicked="OnBackToLoginClicked" BorderColor="Black" 
-                TextColor="Black" Margin="10"/>
+        <Button Text="Confirmar" 
+                BackgroundColor="Salmon" 
+                TextColor="White"
+                Margin="50" 
+                HorizontalOptions="CenterAndExpand" 
+                WidthRequest="150" 
+                Command="{Binding RegisterCommand}"
+                IsEnabled="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" />
+
+        <Button Text="Ya tienes una cuenta?    Iniciar sesión" 
+                BackgroundColor="Transparent" 
+                Command="{Binding BackToLoginCommand}"
+                BorderColor="Black" 
+                TextColor="Black" 
+                Margin="10"/>
     </VerticalStackLayout>
 </ContentPage>

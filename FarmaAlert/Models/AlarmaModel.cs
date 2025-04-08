@@ -8,11 +8,15 @@ namespace FarmaAlert.Models
 {
     public class AlarmaModel
     {
-        public string Name { get; set; }
-        public string Time { get; set; }
-        public string Frequency { get; set; }
-        public double Amount { get; set; }
-        public string Paciente { get; set; }
-        public int Habitacion { get; set; }
+        public string IdAlarma { get; set; }
+        public string IdPaciente { get; set; }
+        public string NombreMedicamento { get; set; }
+        public string IdUsuario { get; set; }
+        public double DosisMg { get; set; }
+        public int FrecuenciaHoras { get; set; }
+        public DateTime FechaInicioTratamiento { get; set; }
+        public DateTime FechaFinTratamiento { get; set; }
+        public string Instrucciones { get; set; }
+        public bool EstadoAlarma { get; set; }
     }
 }

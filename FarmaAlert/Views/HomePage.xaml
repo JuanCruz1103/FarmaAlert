@@ -9,7 +9,7 @@
             BarTextColor="White"
             >
 
-    <NavigationPage Title="Pastillas">
+    <!--<NavigationPage Title="Pastillas">
         <x:Arguments>
             <local:Pastillas/>
         </x:Arguments>
@@ -25,5 +25,5 @@
         <x:Arguments>
             <local:PacientesPage/>
         </x:Arguments>
-    </NavigationPage>
+    </NavigationPage>-->
 </TabbedPage>

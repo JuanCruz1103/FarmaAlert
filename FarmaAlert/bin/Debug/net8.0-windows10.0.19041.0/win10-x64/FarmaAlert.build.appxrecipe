@@ -55,6 +55,9 @@
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\MauiMaterialAssets.ttf">
+      <PackagePath>MauiMaterialAssets.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
@@ -214,11 +217,17 @@
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\editar.scale-100.png">
+      <PackagePath>editar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\estadisticas.scale-100.png">
       <PackagePath>estadisticas.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-100.png">
+      <PackagePath>logout.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\paciente.scale-100.png">
       <PackagePath>paciente.scale-100.png</PackagePath>
@@ -232,6 +241,9 @@
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pastilla.scale-100.png">
       <PackagePath>pastilla.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-100.png">
+      <PackagePath>trash.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\OneDrive\Escritorio\aPrueba\FarmaAlert\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FarmaAlert.deps.json">
       <PackagePath>FarmaAlert.deps.json</PackagePath>
     </AppxPackagedFile>
@@ -240,6 +252,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\documentformat.openxml\3.3.0\lib\net8.0\DocumentFormat.OpenXml.dll">
+      <PackagePath>DocumentFormat.OpenXml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\documentformat.openxml.framework\3.3.0\lib\net8.0\DocumentFormat.OpenXml.Framework.dll">
+      <PackagePath>DocumentFormat.OpenXml.Framework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.aspnet.webapi.client\6.0.0\lib\netstandard2.0\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -339,6 +360,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\newtonsoft.json.bson\1.0.2\lib\netstandard2.0\Newtonsoft.Json.Bson.dll">
+      <PackagePath>Newtonsoft.Json.Bson.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\syncfusion.licensing\28.2.12\lib\net8.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\syncfusion.maui.charts\28.2.12\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Charts.dll">
+      <PackagePath>Syncfusion.Maui.Charts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\syncfusion.maui.core\28.2.12\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\system.io.packaging\8.0.1\lib\net8.0\System.IO.Packaging.dll">
+      <PackagePath>System.IO.Packaging.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -465,6 +504,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.maui.core\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\syncfusion.maui.core\28.2.12\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
+      <PackagePath>Syncfusion.Maui.Core.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

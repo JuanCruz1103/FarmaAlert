@@ -2,112 +2,116 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.Pastillas"
-             Title="Inicio" NavigationPage.HasNavigationBar="False">
-    
+             xmlns:viewmodel="clr-namespace:FarmaAlert.ViewModels"
+             xmlns:model="clr-namespace:FarmaAlert.Models"
+             x:DataType="viewmodel:AlarmaViewModel"
+             Title="Alarmas"
+             NavigationPage.HasNavigationBar="False">
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Cerrar sesión"
                   IconImageSource="logout.png"
                   Order="Primary"
                   Priority="0"
-                  Clicked="OnCerrarSesionClicked"/>
+                  Command="{Binding CerrarSesionCommand}"/>
     </ContentPage.ToolbarItems>
-    
+
     <Grid RowDefinitions="Auto,*,Auto">
-        <!-- Header -->
-
         <!-- Main Content -->
-        <CollectionView x:Name="AlarmasList" 
-                      Grid.Row="1"
-                      SelectionMode="Single"
-                      SelectionChanged="OnAlarmaSeleccionada"
-                      Margin="10">
-            <CollectionView.EmptyView>
-                <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-                    <Label Text="No hay medicamentos programados" 
-                           FontSize="18" 
-                           TextColor="#888888"/>
-                </StackLayout>
-            </CollectionView.EmptyView>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame Margin="0,5,0,10" 
-                           Padding="0" 
-                           CornerRadius="10" 
-                           IsClippedToBounds="True"
-                           BorderColor="Transparent"
-                           HasShadow="True">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="60"/>
-                            </Grid.ColumnDefinitions>
+        <RefreshView Grid.Row="1" 
+                    Command="{Binding RefreshCommand}" 
+                    IsRefreshing="{Binding IsBusy}">
+            <CollectionView ItemsSource="{Binding Alarmas}" 
+                          SelectionMode="Single"
+                          SelectedItem="{Binding SelectedAlarma}"
+                          Margin="10">
+                <CollectionView.EmptyView>
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <Label Text="No hay medicamentos programados" 
+                             FontSize="18" 
+                             TextColor="#888888"/>
+                    </StackLayout>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:AlarmaModel">
+                        <Frame Margin="0,5,0,10" 
+                             Padding="0" 
+                             CornerRadius="10" 
+                             IsClippedToBounds="True"
+                             BorderColor="Transparent"
+                             HasShadow="True">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="60"/>
+                                </Grid.ColumnDefinitions>
 
-                            <StackLayout Padding="15" 
-                                         Grid.Column="0"
-                                         BackgroundColor="#f7f0ee">
-                                <Label Text="{Binding Name}" 
-                                       FontSize="18" 
-                                       FontAttributes="Bold" 
-                                       TextColor="#333333"/>
-                                <Grid Margin="0,5,0,0">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                    </Grid.RowDefinitions>
+                                <StackLayout Padding="15" 
+                                           Grid.Column="0"
+                                           BackgroundColor="#f7f0ee">
+                                    <Label Text="{Binding NombreMedicamento}" 
+                                     FontSize="18" 
+                                     FontAttributes="Bold" 
+                                     TextColor="#333333"/>
+                                    <Grid Margin="0,5,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
 
-                                    <Label Grid.Row="0" Grid.Column="0" Text="Hora:" FontAttributes="Bold" TextColor="#555555"/>
-                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding Time}" TextColor="#555555" Margin="5,0,0,0"/>
+                                        <Label Grid.Row="0" Grid.Column="0" Text="Hora:" FontAttributes="Bold" TextColor="#555555"/>
+                                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding FechaInicioTratamiento, StringFormat='{0:HH:mm}'}" TextColor="#555555" Margin="5,0,0,0"/>
 
-                                    <Label Grid.Row="1" Grid.Column="0" Text="Frecuencia:" FontAttributes="Bold" TextColor="#555555"/>
-                                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding Frequency}" TextColor="#555555" Margin="5,0,0,0"/>
+                                        <Label Grid.Row="1" Grid.Column="0" Text="Frecuencia:" FontAttributes="Bold" TextColor="#555555"/>
+                                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding FrecuenciaHoras, StringFormat='Cada {0} horas'}" TextColor="#555555" Margin="5,0,0,0"/>
 
-                                    <Label Grid.Row="2" Grid.Column="0" Text="Cantidad:" FontAttributes="Bold" TextColor="#555555"/>
-                                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding Amount}" TextColor="#555555" Margin="5,0,0,0"/>
+                                        <Label Grid.Row="2" Grid.Column="0" Text="Cantidad:" FontAttributes="Bold" TextColor="#555555"/>
+                                        <Label Grid.Row="2" Grid.Column="1" Text="{Binding DosisMg, StringFormat='{0} mg'}" TextColor="#555555" Margin="5,0,0,0"/>
 
-                                    <Label Grid.Row="3" Grid.Column="0" Text="Paciente:" FontAttributes="Bold" TextColor="#555555"/>
-                                    <Label Grid.Row="3" Grid.Column="1" Text="{Binding Paciente}" TextColor="#555555" Margin="5,0,0,0"/>
+                                        <Label Grid.Row="3" Grid.Column="0" Text="Paciente:" FontAttributes="Bold" TextColor="#555555"/>
+                                        <Label Grid.Row="3" Grid.Column="1" Text="{Binding IdPaciente, StringFormat='Paciente {0}'}" TextColor="#555555" Margin="5,0,0,0"/>
 
-                                    <Label Grid.Row="4" Grid.Column="0" Text="Habitación:" FontAttributes="Bold" TextColor="#555555"/>
-                                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding Habitacion}" TextColor="#555555" Margin="5,0,0,0"/>
-                                </Grid>
-                            </StackLayout>
-                             <!--Botón Editar-->
-                            <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="20" VerticalOptions="CenterAndExpand">
-                                <!-- Botón Editar -->
-                                <Button ImageSource="editar.png"
-                                        TextColor="White"
-                                        BackgroundColor="#2196F3"
-                                        VerticalOptions="Center"
-                                        HorizontalOptions="FillAndExpand" 
-                                        Clicked="OnEditarAlarma"
-                                        CommandParameter="{Binding}"/>
+                                        <Label Grid.Row="4" Grid.Column="0" Text="Habitación:" FontAttributes="Bold" TextColor="#555555"/>
+                                        <Label Grid.Row="4" Grid.Column="1" Text="{Binding IdPaciente, StringFormat='Habitación {0}'}" TextColor="#555555" Margin="5,0,0,0"/>
+                                    </Grid>
+                                </StackLayout>
 
-                                <!-- Botón Eliminar -->
-                                <Button ImageSource="trash.png"
-                                        TextColor="White"
-                                        BackgroundColor="#FF5252"
-                                        VerticalOptions="Center"
-                                        HorizontalOptions="FillAndExpand"
-                                        Clicked="OnEliminarAlarma"
-                                        CommandParameter="{Binding}"/>
-                            </StackLayout>
-                        </Grid>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                                <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="20" VerticalOptions="CenterAndExpand">
+                                    <!-- Botón Editar -->
+                                    <Button ImageSource="editar.png"
+                                          TextColor="White"
+                                          BackgroundColor="#2196F3"
+                                          VerticalOptions="Center"
+                                          HorizontalOptions="FillAndExpand" 
+                                          Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AlarmaViewModel}}, Path=EditarAlarmaCommand}"
+                                          CommandParameter="{Binding .}"/>
 
+                                    <!-- Botón Eliminar -->
+                                    <Button ImageSource="trash.png"
+                                          TextColor="White"
+                                          BackgroundColor="#FF5252"
+                                          VerticalOptions="Center"
+                                          HorizontalOptions="FillAndExpand"
+                                          Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AlarmaViewModel}}, Path=EliminarAlarmaCommand}"
+                                          CommandParameter="{Binding .}"/>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
 
         <!-- Floating Action Button -->
         <Button Grid.Row="1"
-                Text="+"
+                Text="+" 
                 FontSize="24"
                 WidthRequest="60"
                 HeightRequest="60"
@@ -117,12 +121,11 @@
                 HorizontalOptions="End"
                 VerticalOptions="End"
                 Margin="0,0,20,20"
-                Clicked="OnAgregarClicked"/>
+                Command="{Binding ToggleOpcionesCommand}"/>
 
         <!-- Opciones Popup -->
-        <StackLayout x:Name="OpcionesAgregar"
-                     Grid.Row="1"
-                     IsVisible="False"
+        <StackLayout Grid.Row="1"
+                     IsVisible="{Binding IsOpcionesVisible}"
                      Spacing="10"
                      HorizontalOptions="End"
                      VerticalOptions="End"
@@ -136,13 +139,13 @@
                             BackgroundColor="#4CAF50"
                             TextColor="White"
                             CornerRadius="5"
-                            Clicked="OnNuevaAlarmaClicked"/>
+                            Command="{Binding NuevaAlarmaCommand}"/>
 
                     <Button Text="Dispensar Pastilla"
                             BackgroundColor="#2196F3"
                             TextColor="White"
                             CornerRadius="5"
-                            Clicked="OnDispensarClicked"/>
+                            Command="{Binding DispensarCommand}"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

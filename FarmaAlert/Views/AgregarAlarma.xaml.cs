@@ -1,51 +1,22 @@
+using FarmaAlert.ViewModels;
 
-namespace FarmaAlert.Pages;
-
-public partial class AgregarAlarma : ContentPage
+namespace FarmaAlert.Pages
 {
-	public AgregarAlarma()
-	{
-		InitializeComponent();
-	}
-
-
-    private async void OnGuardarAlarmaClicked(object sender, EventArgs e)
+    public partial class AgregarAlarma : ContentPage
     {
-        // Obtener los valores de los campos
-        string nombrePastilla = NombrePastillaEntry.Text;
-        TimeSpan hora = HoraTimePicker.Time;
-        DateTime fechaFin = FechaFinDatePicker.Date;
-        string frecuencia = FrecuenciaPicker.SelectedItem?.ToString();
-        string dosis = DosisEntry.Text;
-        string paciente = PacienteEntry.Text;
-        string habitacion = HabitacionEntry.Text;
-        string instrucciones = InstruccionesEditor.Text;
+        private AgregarAlarmaViewModel _viewModel;
 
-        // Validar que todos los campos estén llenos
-        if (string.IsNullOrWhiteSpace(nombrePastilla) ||
-            string.IsNullOrWhiteSpace(frecuencia) ||
-            string.IsNullOrWhiteSpace(dosis) ||
-            string.IsNullOrWhiteSpace(paciente) ||
-            string.IsNullOrWhiteSpace(habitacion))
+        public AgregarAlarma(AgregarAlarmaViewModel viewModel)
         {
-            DisplayAlert("Error", "Por favor, complete todos los campos obligatorios.", "OK");
-            return;
+            InitializeComponent();
+            _viewModel = viewModel;
+            BindingContext = viewModel;
         }
 
-        // Aquí guardariamos los datos en una colección de mongo
-        // Por ahora, solo simulamos que todo salio bien
-        DisplayAlert("Éxito", "Alarma guardada correctamente.", "OK");
-
-        // Limpiar los campos después de supuestamente guardar
-        NombrePastillaEntry.Text = string.Empty;
-        HoraTimePicker.Time = TimeSpan.Zero;
-        FechaFinDatePicker.Date = DateTime.Today;
-        FrecuenciaPicker.SelectedIndex = -1;
-        DosisEntry.Text = string.Empty;
-        PacienteEntry.Text = string.Empty;
-        HabitacionEntry.Text = string.Empty;
-        InstruccionesEditor.Text = string.Empty;
-
-        await Navigation.PushAsync(new Pastillas());
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            _viewModel.InicializarDatos();
+        }
     }
 }

@@ -2,38 +2,50 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FarmaAlert.Pages.login"
-             BackgroundColor="White"
-             Title="Inicio de sesión" NavigationPage.HasNavigationBar="False">
+             xmlns:viewmodel="clr-namespace:FarmaAlert.ViewModels"
+             x:DataType="viewmodel:LoginViewModel"
+             BackgroundColor="White" NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout>
         <Image Source="logo.png"  
-       SemanticProperties.Description="MEDIC!!"
-       HeightRequest="150"
-       HorizontalOptions="Center"
-       BackgroundColor="Grey" Margin="40"/>
+            SemanticProperties.Description="MEDIC!!"
+            HeightRequest="150"
+            HorizontalOptions="Center"
+            BackgroundColor="Grey" Margin="40"/>
 
-        <Label  Text="Bienvenido" FontSize="32" VerticalOptions="End" Margin="10" 
-               HorizontalOptions="Center" BackgroundColor="White" TextColor="Black" FontAttributes="Bold"/>
+        <Label Text="Bienvenido" FontSize="32" VerticalOptions="End" Margin="10" 
+            HorizontalOptions="Center" BackgroundColor="White" TextColor="Black" FontAttributes="Bold"/>
 
-        <Label Margin="15" Text="Introduce tu correo electronico" VerticalOptions="Center" HorizontalOptions="Start"
-                FontSize="15" BackgroundColor="White" TextColor="#F85F6A" TranslationX="30" TranslationY="10" FontAttributes="Bold"/>
-        <Entry HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" TranslationY="-10"/>
+        <Label Margin="15" Text="Introduce tu email electronico" VerticalOptions="Center" HorizontalOptions="Start"
+            FontSize="15" BackgroundColor="White" TextColor="#F85F6A" TranslationX="30" TranslationY="10" FontAttributes="Bold"/>
+        <Entry Text="{Binding Email}" HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" TranslationY="-10"/>
 
-        <Label
-    Text="Introduce tu contraseña"
-    VerticalOptions="Center"
-    HorizontalOptions="Center"
-    FontSize="15"
-    TextColor="#F85F6A"  Margin="5" TranslationX="-70" TranslationY="10"  FontAttributes="Bold"/>
-        <Entry IsPassword="True" HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" />
+        <Label Text="Introduce tu contraseña"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="15"
+            TextColor="#F85F6A" Margin="5" TranslationX="-70" TranslationY="10" FontAttributes="Bold"/>
+        <Entry Text="{Binding Contrasena}" IsPassword="True" HorizontalTextAlignment="Start" VerticalOptions="Center" WidthRequest="310" />
 
-        <Button
-    x:Name="mainpage"
-    Text="Iniciar sesión"
-    Clicked="mainpage_Clicked"
-    HorizontalOptions="Center" 
-    BackgroundColor="#F85F6A" Margin="40" WidthRequest="300"></Button>
+        <Label Text="{Binding ErrorMessage}" 
+               IsVisible="{Binding ErrorMessage, Converter={StaticResource StringNotEmptyConverter}, FallbackValue=false}" 
+               TextColor="Red" HorizontalOptions="Center" Margin="10"/>
 
-        <Button Text="Registrate" Clicked="OnRegisterClicked" Margin="20" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="#F85F6A" FontAttributes="Bold"/>
-        <Button Text="Recuperar contraseña?" Clicked="OnForgotPasswordClicked" Margin="10" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>
+        <Button Text="Iniciar sesión"
+            Command="{Binding LoginCommand}"
+            HorizontalOptions="Center" 
+            BackgroundColor="#F85F6A" Margin="40" WidthRequest="300"
+            IsEnabled="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}, FallbackValue=true}"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy, FallbackValue=false}" IsRunning="{Binding IsBusy, FallbackValue=false}" />
+
+        <Button Text="Registrate" 
+                Command="{Binding RegisterCommand}" 
+                Margin="20" HorizontalOptions="Center" 
+                BackgroundColor="Transparent" TextColor="#F85F6A" FontAttributes="Bold"/>
+
+        <Button Text="Recuperar contraseña?" 
+                Command="{Binding ForgotPasswordCommand}" 
+                Margin="10" HorizontalOptions="Center" 
+                BackgroundColor="Transparent" TextColor="Black"/>
     </VerticalStackLayout>
 </ContentPage>
