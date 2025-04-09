@@ -54,7 +54,7 @@ namespace FarmaAlert.Services
             catch (Exception ex)
             {
                 Console.WriteLine($"Error en login: {ex.Message}");
-                throw;
+                throw new Exception(ex.Message);
             }
         }
 

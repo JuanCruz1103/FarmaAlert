@@ -1,48 +1,77 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FarmaAlert.Pages.PacientesPage"
+             x:Class="FarmaAlert.Pages.Pacientes"
              Title="Pacientes"
              BackgroundColor="White"
              NavigationPage.HasNavigationBar="False">
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    <VerticalStackLayout Padding="10">
         <!-- Barra de búsqueda -->
         <SearchBar x:Name="searchBar"
+                   Grid.Row="0"
                    Placeholder="Buscar pacientes..."
                    TextChanged="OnSearchBarTextChanged"
                    Margin="0,0,0,10"/>
 
+        <!-- Indicador de carga -->
+        <ActivityIndicator Grid.Row="1" 
+                          IsRunning="{Binding IsLoading}"
+                          IsVisible="{Binding IsLoading}"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center"/>
+
         <!-- Lista de pacientes -->
-        <CollectionView x:Name="PacientesCollectionView"
+        <CollectionView Grid.Row="1" 
+                        x:Name="PacientesCollectionView"
                         ItemsSource="{Binding PacientesFiltrados}"
-                        SelectionMode="Single">
+                        SelectionMode="Single"
+                        IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
+            <CollectionView.EmptyView>
+                <Label Text="No se encontraron pacientes" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="16"/>
+            </CollectionView.EmptyView>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame Padding="10" Margin="5" BackgroundColor="#E0E0E0" CornerRadius="10">
                         <HorizontalStackLayout Spacing="10">
-                            <!-- Imagen del paciente -->
-                            <Image Source="{Binding Foto}"
-                                   WidthRequest="60"
-                                   HeightRequest="60"
-                                   Aspect="AspectFill"
-                                   VerticalOptions="Center" 
-                                   Opacity="100"/>
+                            <!-- Imagen genérica del paciente -->
+                            <Border StrokeShape="RoundRectangle 30,30,30,30"
+                                    WidthRequest="60"
+                                    HeightRequest="60"
+                                    Stroke="#3498db"
+                                    StrokeThickness="2"
+                                    BackgroundColor="#E0E0E0">
+                                <Label Text="{Binding NombrePaciente, Converter={StaticResource InitialsConverter}}"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       TextColor="#3498db"
+                                       FontSize="22"/>
+                            </Border>
 
                             <!-- Información del paciente -->
-                            <VerticalStackLayout VerticalOptions="Center">
+                            <VerticalStackLayout VerticalOptions="Center" Spacing="2">
                                 <Label Text="{Binding NombrePaciente}" 
                                        FontAttributes="Bold" 
                                        TextColor="Black"/>
-                                <Label Text="{Binding FechaNacimiento}" TextColor="Gray"/>
-                                <Label Text="{Binding HabitacionPaciente}" TextColor="Gray"/>
-                                <Label Text="{Binding EstadoPaciente}" TextColor="Gray"/>
-                                <Label Text="{Binding InformacionMedica}" TextColor="Gray"/>
+                                <Label Text="{Binding FechaNacimiento, StringFormat='Nacimiento: {0:dd/MM/yyyy}'}" TextColor="Gray"/>
+                                <Label Text="{Binding HabitacionPaciente, StringFormat='Habitación: {0}'}" TextColor="Gray"/>
+                                <Label Text="{Binding EstadoPaciente, StringFormat='Estado: {0}'}" TextColor="Gray"/>
+                                <Label Text="{Binding InformacionMedica, StringFormat='Info: {0}'}" 
+                                       TextColor="Gray"
+                                       IsVisible="{Binding InformacionMedica, Converter={StaticResource StringNotEmptyConverter}}"/>
                             </VerticalStackLayout>
                         </HorizontalStackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>

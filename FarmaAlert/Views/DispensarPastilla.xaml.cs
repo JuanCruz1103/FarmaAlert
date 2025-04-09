@@ -1,38 +1,63 @@
-namespace FarmaAlert.Views;
+// DispensarPastilla.xaml.cs
+using FarmaAlert.Services;
+
+namespace FarmaAlert.Pages;
 
 public partial class DispensarPastilla : ContentPage
 {
+    private readonly DispensadorService _dispensadorService;
+
     public DispensarPastilla()
     {
         InitializeComponent();
-    }
-    private void OnMedicamentoSelected(object sender, EventArgs e)
-    {
-        // Aquí puedes manejar la selección del medicamento si es necesario
+        _dispensadorService = new DispensadorService();
     }
 
-    private void OnDispensarClicked(object sender, EventArgs e)
+    private async void OnDispensarClicked(object sender, EventArgs e)
     {
-        string medicamento = MedicamentoPicker.SelectedItem?.ToString();
-        string cantidadText = CantidadEntry.Text;
-
-        if (string.IsNullOrEmpty(medicamento) || string.IsNullOrEmpty(cantidadText))
+        if (MedicamentoPicker.SelectedItem == null)
         {
-            ResultadoLabel.Text = "Por favor, selecciona un medicamento y una cantidad.";
+            await DisplayAlert("Error", "Por favor seleccione un medicamento", "OK");
             return;
         }
 
-        if (int.TryParse(cantidadText, out int cantidad))
+        if (string.IsNullOrEmpty(DispensadorNameEntry.Text))
         {
-            // Aquí puedes agregar la lógica para dispensar el medicamento
-            // Por ejemplo, registrar la dispensación en una base de datos
-
-            ResultadoLabel.Text = $"Dispensadas {cantidad} de {medicamento}.";
+            await DisplayAlert("Error", "Por favor ingrese el nombre del dispensador", "OK");
+            return;
         }
-        else
+
+        string medicamento = MedicamentoPicker.SelectedItem.ToString();
+        string dispensadorNombre = DispensadorNameEntry.Text;
+
+        try
         {
-            ResultadoLabel.Text = "La cantidad debe ser un número válido.";
+            bool success = await _dispensadorService.ActivarDispensador(dispensadorNombre);
+
+            //if (success)
+            //{
+                ResultadoLabel.Text = $"Activando {dispensadorNombre} para {medicamento}";
+                ResultadoLabel.TextColor = Colors.Green;
+
+                // Volver a la página anterior
+                await Navigation.PopAsync();
+            //}
+            //else
+            //{
+            //    ResultadoLabel.Text = "Error al activar el dispensador";
+            //    ResultadoLabel.TextColor = Colors.Red;
+            //}
+        }
+        catch (Exception ex)
+        {
+            ResultadoLabel.Text = $"Error: {ex.Message}";
+            ResultadoLabel.TextColor = Colors.Red;
+            await DisplayAlert("Error", $"No se pudo activar: {ex.Message}", "OK");
         }
     }
+
+    private void OnMedicamentoSelected(object sender, EventArgs e)
+    {
+        // Mantenemos esta función vacía por si el XAML la necesita
+    }
 }
-    

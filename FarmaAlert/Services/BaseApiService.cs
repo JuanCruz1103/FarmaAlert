@@ -11,11 +11,11 @@ namespace FarmaAlert.Services
         {
             _httpCliente = new HttpClient();
 #if ANDROID
-                _httpCliente.BaseAddress = new Uri("https://svsvf749-44398.usw3.devtunnels.ms"); // Reemplaza con tu IPv4
+                _httpCliente.BaseAddress = new Uri("https://lj0bpnxq-44398.usw3.devtunnels.ms"); // Reemplaza con tu IPv4
 #elif IOS
-                _httpCliente.BaseAddress = new Uri("https://svsvf749-44398.usw3.devtunnels.ms"); // Reemplaza con tu IPv4
+            _httpCliente.BaseAddress = new Uri("https://lj0bpnxq-44398.usw3.devtunnels.ms"); // Reemplaza con tu IPv4
 #else
-            _httpCliente.BaseAddress = new Uri("https://svsvf749-44398.usw3.devtunnels.ms"); // Reemplaza con tu IPv4
+            _httpCliente.BaseAddress = new Uri("https://lj0bpnxq-44398.usw3.devtunnels.ms"); // Reemplaza con tu IPv4
 #endif
         }
         private bool _isBusy;
@@ -42,9 +42,23 @@ namespace FarmaAlert.Services
 
         public async Task<T> PostAsync<T>(string url, object data)
         {
-            var response = await _httpCliente.PostAsJsonAsync(url, data);
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadFromJsonAsync<T>();
+            try
+            {
+                var response = await _httpCliente.PostAsJsonAsync(url, data);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    var error = await response.Content.ReadAsStringAsync();
+                    throw new HttpRequestException($"Error al hacer POST a {url}. Código: {response.StatusCode}. Respuesta: {error}");
+                }
+
+                return await response.Content.ReadFromJsonAsync<T>();
+            }
+            catch (Exception ex)
+            {
+                // Puedes loggear aquí también si quieres.
+                throw new Exception($"Error en PostAsync: {ex.Message}", ex);
+            }
         }
 
         public async Task<T> PutAsync<T>(string url, object data)

@@ -14,6 +14,7 @@ namespace FarmaAlert.ViewModels
         private ObservableCollection<AlarmaModel> _alarmas;
         private bool _isOpcionesVisible;
         private AlarmaModel _selectedAlarma;
+        private readonly DispensadorService _dispensadorService;
 
         public ObservableCollection<AlarmaModel> Alarmas
         {
@@ -105,7 +106,7 @@ namespace FarmaAlert.ViewModels
         private async void OnDispensar()
         {
             IsOpcionesVisible = false;
-            await Shell.Current.DisplayAlert("Dispensar", "Función de dispensar pastilla", "OK");
+            await Shell.Current.GoToAsync("DispensarPastilla");
         }
 
         private async void OnEditarAlarma(AlarmaModel alarma)

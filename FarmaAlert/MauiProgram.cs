@@ -3,6 +3,9 @@ using FarmaAlert.Services;
 using FarmaAlert.ViewModels;
 using FarmaAlert.Pages;
 using FarmaAlert.ViewModel;
+using Syncfusion.Maui.Core.Hosting;
+using Syncfusion.Maui.Core.Hosting;
+using Syncfusion.Maui.Charts;
 
 namespace FarmaAlert;
 
@@ -24,6 +27,13 @@ public static class MauiProgram
         builder.Services.AddSingleton<AuthService>();
         builder.Services.AddSingleton<AlarmaService>();
 
+        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("TU_CLAVE_DE_LICENCIA");
+        builder.ConfigureSyncfusionCore();
+
+        // Registrar todos los controles de Syncfusion manualmente
+        builder.Services.AddSingleton(typeof(SfCircularChart));
+        builder.Services.AddSingleton(typeof(PieSeries));
+        builder.Services.AddSingleton(typeof(ChartLegend));
 
         // Registrar ViewModels
         builder.Services.AddTransient<LoginViewModel>();
